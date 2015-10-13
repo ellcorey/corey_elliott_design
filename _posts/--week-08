@@ -1,0 +1,19 @@
+
+##app presentations
+
+##jquery plugins
+responsive-nav.com
+make sure to adjust the path in the script file after linking in the HTML head
+jquery library must also be linked in the head
+- can either be run from your local file or linked from a remote server
+    + jquery.com["jquery.com"]
+slicknav.com
+use of plugins should be considered thoroughly before implementation (more so to client work)
+
+hw
+add 2 jquery plugins to existing projects
+write blog post on designing for mobile
+begin porfolio research
+- questionnaire for friends/family?
+    + 3-5 simple questions that will help with possible direction
+- 
