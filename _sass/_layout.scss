@@ -3,7 +3,6 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -11,9 +10,11 @@
 }
 
 .site-title {
+    font-family: $base-header-font-family;
+    font-weight: 700;
     font-size: 26px;
     line-height: 56px;
-    letter-spacing: -1px;
+    letter-spacing: -.05em;
     margin-bottom: 0;
     float: left;
 
@@ -41,7 +42,7 @@
         }
     }
 
-    @include media-query($on-palm) {
+    @include media-query($on-tab) {
         position: absolute;
         top: 9px;
         right: 30px;
@@ -148,7 +149,7 @@
     }
 }
 
-@include media-query($on-palm) {
+@include media-query($on-tab) {
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -198,12 +199,12 @@
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
+    font-size: 2.5em;
+    letter-spacing: -.05em;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 2em;
     }
 }
 
@@ -211,15 +212,15 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 1.8em;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 1.5em;
         }
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 1.4em;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -227,7 +228,7 @@
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 1.25em;
 
         @include media-query($on-laptop) {
             font-size: 18px;

@@ -29,10 +29,13 @@ body {
 h1, h2, h3, {
     font-family: $base-header-font-family;
     font-weight: 700;
+    letter-spacing: -.05em;
     color: $text-color;
 }
 
-
+h2,{
+   color: lighten($text-color, 35%);
+}
 
 
 /**
@@ -90,7 +93,7 @@ li {
  * Headings
  */
 h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 700;
 }
 
 
@@ -99,16 +102,17 @@ h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    font-weight: 700;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: lighten($text-color, 40%);
     }
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        border-bottom: .18em solid $brand-color;
+        margin-bottom: -.18em;
     }
 }
 
@@ -119,9 +123,10 @@ a {
  */
 blockquote {
     color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    border-left: 4px solid $brand-color;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 700;
     letter-spacing: -1px;
     font-style: italic;
 
