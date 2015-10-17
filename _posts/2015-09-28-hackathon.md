@@ -33,6 +33,8 @@ The completed project shows how effective 4 students (with only 5 weeks experien
 
 ###design overview
 
+<img id="test" src="{{ post.url | prepend: site.baseurl }}/images/skillsup_home_fs.png"><img src="{{ post.url | prepend: site.baseurl }}/images/skillsup_login_fs.png">
+
 ###site inspirations
 Site inspirations are something we've used for almost every project thus far. For this project, I chose two sites whose core functionality is based around sharing things, and another that offered a very clean layout for a service offered. 
 
