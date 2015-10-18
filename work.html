@@ -8,4 +8,17 @@ permalink: /work/
 
   <h1 class="page-heading">Projects & Selected Work</h1>
 
+  <main>
+ 	 <div class="row">
+	  	{% for page in site.projects %}
+	  		<div class="project">
+	  			<a class"project-link" href="{{ project.url | prepend:site.baseurl }}"><h2 class="project-title">{{ project.title }}</h2>
+	  		<div class="project-image"></div>
+	  			<p>A brief description of project including keywords</p>
+	  		</div>
+	  	{% endfor %}
+
+  	</div>
+  </main>
+
 </div>

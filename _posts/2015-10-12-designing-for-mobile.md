@@ -2,7 +2,8 @@
 layout: post
 title: Designing for Mobile
 date: 2015-10-12
-categories: TIY, UI, design, mobile, ios
+categories: TIY UI design mobile ios
+permalink: designing-for-mobile
 ---
 
 Designing for mobile is an ever changing and intriguing task. We're constantly reevaluating how people use a product and adapting to an endless supply of new device technology. Some designers find themselves questioning not just what mobile means tomorrow, but even what it means today.

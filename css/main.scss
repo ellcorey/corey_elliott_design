@@ -4,6 +4,25 @@
 @charset "utf-8";
 
 
+//Grid variables
+$tot-width: 100%; 	//Total width of all columns combined
+$col-tot: 12;		//Total number of columns
+$gut-width: 2%;		//gutter width
+$col-width: ($tot-width - (($col-tot - 1) * $gut-width)) / $col-tot;
+
+
+// Grid setup to be used throughout layout
+@mixin grid($col-num) {
+	float: left;
+	margin-right: $gut-width;
+	width: ($col-width * $col-num) + (($col-num - 1 ) * $gut-width);
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+
 
 // Our variables
 $base-font-family: "aaux-next",Helvetica, Arial, sans-serif;
@@ -23,10 +42,11 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1000px;
 
-$on-tab:          600px;
-$on-laptop:        800px;
+$on-mobile:		   400px;
+$on-tab:		   600px;
+$on-laptop:        1000px;
 
 
 
@@ -52,5 +72,6 @@ $on-laptop:        800px;
         "base",
         "layout",
         "syntax-highlighting",
-        "home"
+        "home",
+        "workLayout"
 ;
