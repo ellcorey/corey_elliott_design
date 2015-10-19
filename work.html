@@ -9,16 +9,26 @@ permalink: /work/
   <h1 class="page-heading">Projects & Selected Work</h1>
 
   <main>
- 	 <div class="row">
-	  	{% for page in site.projects %}
-	  		<div class="project">
-	  			<a class"project-link" href="{{ project.url | prepend:site.baseurl }}"><h2 class="project-title">{{ project.title }}</h2>
-	  		<div class="project-image"></div>
-	  			<p>A brief description of project including keywords</p>
-	  		</div>
-	  	{% endfor %}
 
-  	</div>
+  		<div id="js-fadeInElemet" class="project">
+  			<h2 class="project-title">The Kindness Project</h2>
+  		<div class="project-image"></div>
+  			<p>Native iOS app designed to virally spread kindness through an innovative system of challenges.</p>
+  		</div>
+
+		<div class="project">
+  			<h2 class="project-title">Chez Nous Redesign</h2>
+  		<div class="project-image"></div>
+  			<p>Redisgned responsive website for downtown Austin's longstanding French Bistro.</p>
+  		</div>
+
+		<div class="project">
+  			<h2 class="project-title">CSS Zen Garden</h2>
+  		<div class="project-image"></div>
+  			<p>Exercise showing what can be done with pure HTML and CSS.</p>
+  		</div>
+
+
   </main>
 
 </div>

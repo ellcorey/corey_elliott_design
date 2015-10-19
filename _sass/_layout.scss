@@ -9,18 +9,23 @@
     position: relative;
 }
 
+#main_logo {
+    height: .75em;
+    vertical-align: 0%;
+}
+
 .site-title {
     font-family: $base-header-font-family;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 2.5em;
     line-height: 56px;
     letter-spacing: -.05em;
     margin-bottom: 0;
-    float: left;
 
-    &,
+    &:hover,
     &:visited {
-        color: $grey-color-dark;
+        color: $text-color;
+        border-bottom: none;
 
         @include media-query($on-mobile) {
             display: none;
