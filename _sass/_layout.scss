@@ -15,8 +15,8 @@
 }
 
 .site-title {
-    font-family: $base-header-font-family;
-    font-weight: 700;
+    font-family: $base-font-family;
+    font-weight: 300;
     font-size: 2.5em;
     line-height: 56px;
     letter-spacing: -.05em;
@@ -111,8 +111,20 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    background: $text-color;
     padding: $spacing-unit 0;
+    position: absolute;
+    width: 100%;
+
+    a,
+    &:visited {
+        color: $grey-color;
+    }
+
+    a:hover {
+        color: $brand-color;
+        border-bottom: none;
+    }
 }
 
 .footer-heading {
@@ -181,6 +193,7 @@
  * Page content
  */
 .page-content {
+    min-height: 20em;
     padding: $spacing-unit 0;
 }
 
@@ -204,7 +217,6 @@
 }
 
 .post-link {
-    display: block;
     font-size: 24px;
 }
 

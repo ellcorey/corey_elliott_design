@@ -105,8 +105,8 @@ a {
     font-weight: 700;
     text-decoration: none;
 
-    &:visited {
-        color: lighten($text-color, 40%);
+    &:visited, &:focus, &:active, &:link {
+        color: $text-color;
     }
 
     &:hover {
@@ -212,7 +212,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $brand-color;
         }
     }
 }
