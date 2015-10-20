@@ -4,75 +4,15 @@
 @charset "utf-8";
 
 
-//Grid variables
-$tot-width: 100%; 	//Total width of all columns combined
-$col-tot: 12;		//Total number of columns
-$gut-width: 2.25%;		//gutter width
-$col-width: ($tot-width - (($col-tot - 1) * $gut-width)) / $col-tot;
-
-
-// Grid setup to be used throughout layout
-@mixin grid($col-num) {
-	float: left;
-	margin-right: $gut-width;
-	width: ($col-width * $col-num) + (($col-num - 1 ) * $gut-width);
-
-	&:last-child {
-		margin-right: 0;
-	}
-}
-
-
-
-//Our variables
-$base-font-family: "aaux-next",Helvetica, Arial, sans-serif;
-$base-header-font-family: "nimbus-sans",Helvetica, Arial, sans-serif;
-$base-font-size:   18px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #1a1a1a;
-$background-color: white;
-$brand-color:      #00ff85;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    1000px;
-
-$on-mobile:		   400px;
-$on-tab:		   600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 		"reset",
 		"bourbon/bourbon",
 		"neat/neat",
+		"centerednav",
         "base",
         "layout",
-        "syntax-highlighting",
+        // "syntax-highlighting",
         "home",
         "workLayout"
 ;

@@ -22,14 +22,6 @@
 	.project-desc {
 		padding: 1% 2%;
 	}
-
-	@include media-query($on-tab){
-		@include grid (6);
-	}
-
-	@include media-query($on-mobile){
-		@include grid(12);
-	}
 }
 
 .project-title {
