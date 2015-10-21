@@ -5,17 +5,38 @@ $base-header-font-family: "nimbus-sans",Helvetica, Arial, sans-serif;
 $text-color:       #1a1a1a;
 $brand-color:      #00ff85;
 
+
+/* base styling for text elements */
+body {
+    color: $text-color;
+} 
+
 p {
     font-family: $base-font-family;
     font-size: 1.15em;
     line-height: 1.5em;
+    margin-bottom: 3em;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        border-bottom: 3px solid $brand-color;
+        margin-bottom: -3px;
+    }
 }
 
 h1,
 h2,
-h3, {
+h3 {
+    color: $text-color;
     font-family: $base-header-font-family;
     font-weight: 700;
+    letter-spacing: -.05em;
+    line-height: .5em;
+    margin-bottom: .35em;
 }
 
 h4 {
@@ -28,9 +49,9 @@ h1 {
 }
 
 h2 {
-    font-size: 2.25em;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1.75em;
+    font-size: 1.5em;
 }

@@ -16,11 +16,48 @@ $col-width: ($tot-width - (($col-tot - 1) * $gut-width)) / $col-tot;
     }
 }
 
+.page-content {
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 4%;
+}
+
 footer {
+    clear: both;
     width: 100%;
 
     .icon {
         height: 1.5em;
         width: 1.5em;
     }
+}
+
+
+.centered-navigation {
+
+    border-top: .25em solid $text-color;
+    padding-top: .5em;
+    
+    h1 {
+        display: inline-block;
+        font-family: $base-font-family;
+        font-size: 3em;
+        font-weight: 200;
+    }
+
+    .ce-logo {
+        fill: $brand-color;
+        display: inline-block;
+        height: 2.25em;
+        width: 2.25em;
+    }
+}
+
+.post-meta {
+    display: inline-block;
+    font-family: $base-font-family;
+    font-size: 1.15em;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: .75em;
 }
