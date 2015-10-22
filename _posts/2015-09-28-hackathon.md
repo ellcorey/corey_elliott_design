@@ -3,7 +3,7 @@ layout: post
 title: Hackothon - 2015.08 Cohort
 date: 2015-09-28
 categories: TIY UI design projects hackothon
-permalink: hackothon
+permalink: /hackothon/
 ---
 
 ##UI design project

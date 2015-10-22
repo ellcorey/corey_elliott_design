@@ -16,9 +16,14 @@ $col-width: ($tot-width - (($col-tot - 1) * $gut-width)) / $col-tot;
     }
 }
 
+.page-heading {
+    margin-bottom: 1.5em;
+}
+
 .page-content {
     margin: 0 auto;
-    max-width: 950px;
+    max-width: 980px;
+    overflow: hidden;
     padding: 4%;
 }
 
@@ -41,16 +46,20 @@ footer {
     h1 {
         display: inline-block;
         font-family: $base-font-family;
-        font-size: 3em;
+        font-size: 2em;
         font-weight: 200;
     }
 
     .ce-logo {
         fill: $brand-color;
         display: inline-block;
-        height: 2.25em;
-        width: 2.25em;
+        height: 1.5em;
+        width: 1.5em;
     }
+}
+
+.post-li {
+    display: block;
 }
 
 .post-meta {

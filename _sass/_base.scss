@@ -6,26 +6,28 @@ $text-color:       #1a1a1a;
 $brand-color:      #00ff85;
 
 
+
 /* base styling for text elements */
+
 body {
     color: $text-color;
 } 
 
 p {
     font-family: $base-font-family;
-    font-size: 1.15em;
+    font-size: 1.25em;
     line-height: 1.5em;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 a {
     font-weight: bold;
     text-decoration: none;
 
-    &:hover {
-        border-bottom: 3px solid $brand-color;
-        margin-bottom: -3px;
-    }
+    // &:hover {
+    //     border-bottom: 3px solid $brand-color;
+    //     margin-bottom: -3px;
+    // }
 }
 
 h1,
@@ -54,4 +56,21 @@ h2 {
 
 h3 {
     font-size: 1.5em;
+}
+
+
+
+/* Images */
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+/* Icons */
+
+path {
+    fill: $brand-color;
 }

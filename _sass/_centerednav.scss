@@ -98,6 +98,8 @@
   ul li.nav-link {
     background: $centered-navigation-background;
     display: block;
+    font-family: $base-font-family;
+    font-size: 1.5em;
     line-height: $centered-navigation-height;
     overflow: hidden;
     padding-right: $centered-navigation-submenu-padding;
@@ -106,14 +108,14 @@
     z-index: 9999;
 
     a {
-      color: $centered-navigation-color;
-      display: inline-block;
-      outline: none;
+      color: $text-color;
+      // outline: none;
       text-decoration: none;
 
       &:focus,
       &:hover {
-        color: $centered-navigation-color-hover;
+        border-bottom: 3px solid $brand-color;
+        transition: .08s;
       }
     }
 
@@ -123,7 +125,7 @@
       line-height: $centered-navigation-height;
 
       a {
-        padding-right: $centered-navigation-item-padding;
+        margin-right: $centered-navigation-item-padding;
       }
     }
   }
@@ -134,6 +136,10 @@
 
     @include media($large-screen) {
       display: inline;
+
+      &a:hover {
+        border-bottom: none;
+      }
     }
   }
 
