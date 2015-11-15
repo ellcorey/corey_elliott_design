@@ -3,9 +3,9 @@ title: corey elliott design
 email: corey.elliott@mac.com
 description: > # this means to ignore newlines until "baseurl:"
   Portfolio & personal site for Corey Elliott - Austin based UI and visual designer.
-baseurl: "/corey_elliott_design" # the subpath of your site, e.g. /blog/
+baseurl: "/corey_elliott" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: celcreative
+twitter_username: cedsgn
 github_username:  ellcorey
 
 # Build settings
