@@ -16,16 +16,8 @@ $col-width: ($tot-width - (($col-tot - 1) * $gut-width)) / $col-tot;
     }
 }
 
-.page-heading {
-    padding: 0 5%;
-    margin-bottom: 1em;
-}
-
-.page-content {
-    margin: 0 auto;
-    max-width: 980px;
-    overflow: hidden;
-    padding: 4%;
+.about-index {
+    margin-top: 2em;
 }
 
 footer {
@@ -85,10 +77,25 @@ section {
     color: white;
 }
 
-.portrait {
-    background: url('../imgs/site_wide/tiy_portrait.jpg');
-    background-size: cover;
-    height: 300px;
+.profile-card {
+
+    .portrait {
+        background: url('../imgs/site_wide/tiy_portrait.jpg');
+        background-size: cover;
+        height: 300px;
+    }
+
+    span {
+        background: #333;
+        color: white;
+        display: block;
+        font-family: $base-font-family;
+        font-size: 1.25em;
+        font-weight: 300;
+        margin: 0 auto;
+        padding: 1em;
+        text-align: center;
+    }
 }
 
 .project-card {
@@ -111,7 +118,17 @@ footer {
 /* PAGE LAYOUTS */
 
 .page {
-    margin-top: 7em;
+    margin-top: 2em;
+}
+
+.page-heading {
+    padding: .57em 5%;
+    margin-bottom: 1em;
+}
+
+.page-content {
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 /* HIDDEN ELEMENTS AT LOAD */
