@@ -75,7 +75,7 @@ footer {
 
 section {
     h1, h2, h3, h4, p {
-        padding: 5%;
+        padding: .75em 5%;
     }
 }
 
@@ -105,4 +105,15 @@ footer {
     p {
         color: white;
     }
+}
+
+/* HIDDEN ELEMENTS AT LOAD */
+
+.hero {
+    background: url('../imgs/temp_img/ipad_mac.jpg');
+    background-position: fixed;
+    background-size: cover;
+    display: none;
+    height: 300px;
+    margin-top: -80px;
 }
