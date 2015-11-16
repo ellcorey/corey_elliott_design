@@ -17,7 +17,8 @@ $col-width: ($tot-width - (($col-tot - 1) * $gut-width)) / $col-tot;
 }
 
 .page-heading {
-    margin-bottom: 1.5em;
+    padding: 0 5%;
+    margin-bottom: 1em;
 }
 
 .page-content {
@@ -105,6 +106,12 @@ footer {
     p {
         color: white;
     }
+}
+
+/* PAGE LAYOUTS */
+
+.page {
+    margin-top: 7em;
 }
 
 /* HIDDEN ELEMENTS AT LOAD */
