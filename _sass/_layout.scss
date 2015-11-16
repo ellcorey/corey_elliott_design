@@ -70,3 +70,50 @@ footer {
     font-weight: 400;
     margin-bottom: .75em;
 }
+
+/* copy & pasted from other project */
+
+nav {
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#menu {
+    display: none;
+}
+
+section {
+    h1, h2, h3, h4, p {
+        padding: 5%;
+    }
+}
+
+.full-width {
+    background: black;
+    color: white;
+}
+
+.portrait {
+    background: url('../img/tiy_portrait.jpg');
+    background-size: cover;
+    height: 300px;
+}
+
+.project-card {
+    border: .25em solid #555;
+    box-shadow: 5px 5px 0 #ef6a5a;
+    margin: 1em auto;
+    min-height: 300px;
+    width: 90%;
+}
+
+footer {
+    background: black;
+    margin-top: 3em;
+    
+    p {
+        color: white;
+    }
+}

@@ -75,3 +75,54 @@ path {
     fill: $brand-color;
 }
 
+/* copy & pasted from other project */
+
+/* ===============
+    BASE STYLES
+   ============ */
+
+/* ===============
+    TEXT STYLING
+   ============ */
+
+h1,
+h2,
+h3 {
+    font-family: 'nimbus-sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: -.03em;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+p,a {
+    color: #333;
+    font-family: "aaux-next",sans-serif;
+    font-size: 1.125em;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    transition: .1s ease;
+
+    &:visited {
+        color: shade(#00ffe3, 20%);
+    }
+
+    &:hover {
+        color: #00ffe3;
+    }
+}
