@@ -73,17 +73,6 @@ footer {
 
 /* copy & pasted from other project */
 
-nav {
-    height: 50px;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-
-#menu {
-    display: none;
-}
-
 section {
     h1, h2, h3, h4, p {
         padding: 5%;
@@ -96,13 +85,13 @@ section {
 }
 
 .portrait {
-    background: url('../img/tiy_portrait.jpg');
+    background: url('../imgs/site_wide/tiy_portrait.jpg');
     background-size: cover;
     height: 300px;
 }
 
 .project-card {
-    border: .25em solid #555;
+    border: .25em solid #333;
     box-shadow: 5px 5px 0 #ef6a5a;
     margin: 1em auto;
     min-height: 300px;

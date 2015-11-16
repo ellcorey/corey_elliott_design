@@ -1,13 +1,21 @@
-// Variables
+/* ===============
+    BASE STYLES
+   ============ */
+
+/* ===============
+    VARIABLES
+   ============ */
 $base-font-family: "aaux-next",Helvetica, Arial, sans-serif;
 $base-header-font-family: "nimbus-sans",Helvetica, Arial, sans-serif;
 
-$text-color:       #1a1a1a;
+$text-color:       #333;
 $brand-color:      #00ff85;
 
 
 
-/* base styling for text elements */
+/* ===============
+    TEXT STYLING
+   ============ */
 
 body {
     color: $text-color;
@@ -16,18 +24,22 @@ body {
 p {
     font-family: $base-font-family;
     font-size: 1.25em;
+    font-weight: 300;
     line-height: 1.5em;
-    margin-bottom: 2em;
 }
 
 a {
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
+    transition: .1s ease;
 
-    // &:hover {
-    //     border-bottom: 3px solid $brand-color;
-    //     margin-bottom: -3px;
-    // }
+    &:visited {
+        color: shade(#00ffe3, 20%);
+    }
+
+    &:hover {
+        color: #00ffe3;
+    }
 }
 
 h1,
@@ -36,8 +48,7 @@ h3 {
     color: $text-color;
     font-family: $base-header-font-family;
     font-weight: 700;
-    letter-spacing: -.05em;
-    line-height: .5em;
+    letter-spacing: -.03em;
     margin-bottom: .35em;
 }
 
@@ -47,15 +58,15 @@ h4 {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
 
@@ -75,54 +86,4 @@ path {
     fill: $brand-color;
 }
 
-/* copy & pasted from other project */
 
-/* ===============
-    BASE STYLES
-   ============ */
-
-/* ===============
-    TEXT STYLING
-   ============ */
-
-h1,
-h2,
-h3 {
-    font-family: 'nimbus-sans', sans-serif;
-    font-weight: 700;
-    letter-spacing: -.03em;
-}
-
-h1 {
-    font-size: 3.5em;
-}
-
-h2 {
-    font-size: 2.5em;
-}
-
-h3 {
-    font-size: 1.75em;
-}
-
-p,a {
-    color: #333;
-    font-family: "aaux-next",sans-serif;
-    font-size: 1.125em;
-    font-weight: 300;
-    line-height: 1.5em;
-}
-
-a {
-    font-weight: 700;
-    text-decoration: none;
-    transition: .1s ease;
-
-    &:visited {
-        color: shade(#00ffe3, 20%);
-    }
-
-    &:hover {
-        color: #00ffe3;
-    }
-}
