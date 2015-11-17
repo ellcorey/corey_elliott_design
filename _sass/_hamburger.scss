@@ -6,7 +6,7 @@
 
 // vars
 
-$button-width: 40px;                    // The width of the button area
+$button-width: 48px;                    // The width of the button area
 $button-height: 40px;                   // The height of the button area
 $bar-thickness: 6px;                    // The thickness of the button bars
 $button-pad: 0px;                      // The left/right padding between button area and bars.
@@ -26,7 +26,7 @@ $button-transistion-duration: 0.3s;     // The transition duration
   display: block;
   position: relative;
   overflow: hidden;
-  margin: 0;
+  margin: 5px 0 0 0;
   padding: 0;
   width: $button-width;
   height: $button-height;

@@ -16,73 +16,53 @@ $col-width: ($tot-width - (($col-tot - 1) * $gut-width)) / $col-tot;
     }
 }
 
+
+
+
+
+/* ==============================
+
+BASE PAGE LAYOUTS FOR MOBILE SIZE 
+
+============================== */
+
+
+
+
+/* ==============================
+
+INDEX PAGE
+
+============================== */
+
 .about-index {
     margin-top: 2em;
 }
 
 footer {
+    background: black;
     clear: both;
+    margin-top: 3em;
     width: 100%;
+    
+    p {
+        color: white;
+    }
 
     .icon {
-        height: 1.5em;
-        width: 1.5em;
-    }
-}
-
-
-.centered-navigation {
-
-    border-top: .25em solid $text-color;
-    padding-top: .5em;
-    
-    h1 {
-        display: inline-block;
-        font-family: $base-font-family;
-        font-size: 2em;
-        font-weight: 200;
+        display: block;
+        height: 2.5em;
+        width: 2.5em;
     }
 
-    .ce-logo {
-        fill: $brand-color;
-        display: inline-block;
-        height: 1.5em;
-        width: 1.5em;
+    .social-media-list {
+        padding: 0 5%;
+
+        li {
+            display: inline-block;
+        }
     }
 }
-
-/* BLOG PAGE & POST STYLING */
-
-.post-li {
-    display: block;
-    padding: .75em 5%;
-    margin-bottom: 3em;
-
-    h1, h2, h3, p {
-        padding: 0;
-        margin-bottom: .5em;
-    }
-}
-
-.post-meta {
-    display: inline-block;
-    font-family: $base-font-family;
-    font-size: 1.15em;
-    font-style: italic;
-    font-weight: 400;
-    margin-bottom: .75em;
-}
-
-a.post-link {
-    color: #333;
-    transition: .1s ease;
-
-    &:hover {
-        color: #00ffe3;
-    }
-}
-
-/* copy & pasted from other project */
 
 section {
     h1, h2, h3, h4, p {
@@ -121,19 +101,38 @@ section {
     box-shadow: 5px 5px 0 #ef6a5a;
     margin: 1em auto;
     min-height: 300px;
+    padding-bottom: 2em;
     width: 90%;
 }
 
-footer {
-    background: black;
-    margin-top: 3em;
-    
-    p {
-        color: white;
-    }
+.card-img {
+    height: 7.5em;
+    margin-top: 2em;
 }
 
-/* PAGE LAYOUTS */
+.zephyrTitle {
+    background: url('../imgs/zephyr/zephyrTitle.png') center no-repeat;
+    background-size: 63%;
+}
+
+.grTitle {
+    background: url('../imgs/goodreads/grTitle.png') center no-repeat;
+    background-size: 83%;
+}
+
+.tkpTitle {
+    background: url('../imgs/tkp/tkpTitle.png') center no-repeat;
+    background-size: 86%;
+}
+
+
+
+/* ==============================
+
+UNIVERSAL PAGE LAYOUT STYLING
+***DOES NOT INCLUDE INDEX*** 
+
+============================== */
 
 .page {
     margin-top: 2em;
@@ -149,11 +148,64 @@ footer {
     overflow: hidden;
 }
 
+
+
+
+
+/* ==============================
+
+BLOG PAGE & POST SPECIFIC STYLING 
+
+============================== */
+
+.post-li {
+    display: block;
+    padding: .75em 5%;
+    margin-bottom: 3em;
+
+    h1, h2, h3, p {
+        padding: 0;
+        margin-bottom: .5em;
+    }
+}
+
+.post-meta {
+    display: inline-block;
+    font-family: $base-font-family;
+    font-size: 1.15em;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: .75em;
+}
+
+a.post-link {
+    color: #333;
+    transition: .1s ease;
+
+    &:hover {
+        color: #00ffe3;
+    }
+}
+
+
+
+
+
+/* ==============================
+
+PROJECT PAGE SPECIFIC STYLING 
+
+============================== */
+
 #self01, #self02, #self03 {
     background: url('../imgs/site_wide/tiy_portrait.jpg');
     background-size: cover;
     width: 90%;
 }
+
+
+
+
 
 /* HIDDEN ELEMENTS AT LOAD */
 
