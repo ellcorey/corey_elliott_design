@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Hackothon - 2015/08 Cohort
+title: Hackothon - 2015.08 Cohort
 date: 2015-09-28
-categories: TIY, UI, design, projects, hackothon
+categories: TIY UI design projects hackothon
+permalink: /hackothon/
 ---
 
-##UI design project
+Every cohort at the Iron Yard goes through a group project known as a Hackothon — a "grueling" weekend+ long build project where the individual cohorts (UI design, front-end, back-end) are split up into teams. 
 
-###the premise
-Every cohort at the Iron Yard goes through a group project known as a Hackothon — a "grueling" weekend+ long build project where the individual cohorts (UI design, front-end, back-end) are split up into teams. Each team usually consists of a combination of students from front-end development, back-end development, and UI design courses. While each cohort varies in the way the teams are organized, the goal is the same: to create a functioning web app in less than 4 days. My cohort ran our Hackothon at the end of week 05.
+Each team usually consists of a combination of students from front-end development, back-end development, and UI design courses. While each cohort varies in the way the teams are organized, the goal is the same: to create a functioning web app in less than 4 days. My cohort ran our Hackothon at the end of week 05.
 
 ###deliverables
 
@@ -32,6 +32,8 @@ SkillsUp is the working title for the web app my team built. The concept is a si
 The completed project shows how effective 4 students (with only 5 weeks experience in web/database technologies) can be in an accelerated environment. Our app incorporates a multitude of current web & database technologies including html, css, scss, [Gulp](http://gulpjs.com/), [Backbone](http://backbonejs.org/), javascript, jquery, ruby, rails, and [Heroku](https://www.heroku.com/). Additionally, we used [GitHuh](https://github.com/) and terminal for our collaboration & version control, and [GitPages](https://pages.github.com/) for hosting. You can see our repository [here](https://github.com/bobmccarthy/stop-drop-and-collaborate), and our page [here](http://bobmccarthy.github.io/).
 
 ###design overview
+
+<img id="test" src="{{ post.url | prepend: site.baseurl }}/images/skillsup_home_fs.png"><img src="{{ post.url | prepend: site.baseurl }}/images/skillsup_login_fs.png">
 
 ###site inspirations
 Site inspirations are something we've used for almost every project thus far. For this project, I chose two sites whose core functionality is based around sharing things, and another that offered a very clean layout for a service offered. 

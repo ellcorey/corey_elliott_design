@@ -1,236 +1,219 @@
-/**
- * Site header
- */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+//Grid variables
+$tot-width: 100%;   //Total width of all columns combined
+$col-tot: 12;       //Total number of columns
+$gut-width: 2.25%;      //gutter width
+$col-width: ($tot-width - (($col-tot - 1) * $gut-width)) / $col-tot;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
-}
 
-.site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
+// Grid setup to be used throughout layout
+@mixin grid($col-num) {
     float: left;
+    margin-right: $gut-width;
+    width: ($col-width * $col-num) + (($col-num - 1 ) * $gut-width);
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
+    &:last-child {
+        margin-right: 0;
     }
 }
 
-.site-nav {
-    float: right;
-    line-height: 56px;
 
-    .menu-icon {
-        display: none;
+
+
+
+/* ==============================
+
+BASE PAGE LAYOUTS FOR MOBILE SIZE 
+
+============================== */
+
+
+
+
+/* ==============================
+
+INDEX PAGE
+
+============================== */
+
+.about-index {
+    margin-top: 2em;
+}
+
+footer {
+    background: black;
+    clear: both;
+    margin-top: 3em;
+    width: 100%;
+    
+    p {
+        color: white;
     }
 
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
+    .icon {
+        display: block;
+        height: 2.5em;
+        width: 2.5em;
     }
 
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
+    .social-media-list {
+        padding: 0 5%;
 
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
+        li {
+            display: inline-block;
         }
     }
 }
 
-
-
-/**
- * Site footer
- */
-.site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+section {
+    h1, h2, h3, h4, p {
+        padding: .75em 5%;
     }
 }
 
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+.full-width {
+    background: black;
+    color: white;
+}
+
+.profile-card {
+
+    .portrait {
+        background: url('../imgs/site_wide/tiy_portrait.jpg');
+        background-size: cover;
+        height: 300px;
     }
+
+    span {
+        background: #333;
+        color: white;
+        display: block;
+        font-family: $base-font-family;
+        font-size: 1.25em;
+        font-weight: 300;
+        margin: 0 auto;
+        padding: 1em;
+        text-align: center;
+    }
+}
+
+.project-card {
+    border: .25em solid #333;
+    box-shadow: 5px 5px 0 #ef6a5a;
+    margin: 1em auto;
+    min-height: 300px;
+    padding-bottom: 2em;
+    width: 90%;
+}
+
+.card-img {
+    height: 7.5em;
+    margin-top: 2em;
+}
+
+.zephyrTitle {
+    background: url('../imgs/zephyr/zephyrTitle.png') center no-repeat;
+    background-size: 63%;
+}
+
+.grTitle {
+    background: url('../imgs/goodreads/grTitle.png') center no-repeat;
+    background-size: 83%;
+}
+
+.tkpTitle {
+    background: url('../imgs/tkp/tkpTitle.png') center no-repeat;
+    background-size: 86%;
 }
 
 
 
-/**
- * Page content
- */
-.page-content {
-    padding: $spacing-unit 0;
+/* ==============================
+
+UNIVERSAL PAGE LAYOUT STYLING
+***DOES NOT INCLUDE INDEX*** 
+
+============================== */
+
+.page {
+    margin-top: 2em;
 }
 
 .page-heading {
-    font-size: 20px;
+    padding: .57em 5%;
+    margin-bottom: 1em;
 }
 
-.post-list {
-    margin-left: 0;
-    list-style: none;
+.page-content {
+    margin: 0 auto;
+    overflow: hidden;
+}
 
-    > li {
-        margin-bottom: $spacing-unit;
+
+
+
+
+/* ==============================
+
+BLOG PAGE & POST SPECIFIC STYLING 
+
+============================== */
+
+.post-li {
+    display: block;
+    padding: .75em 5%;
+    margin-bottom: 3em;
+
+    h1, h2, h3, p {
+        padding: 0;
+        margin-bottom: .5em;
     }
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+    display: inline-block;
+    font-family: $base-font-family;
+    font-size: 1.15em;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: .75em;
 }
 
-.post-link {
-    display: block;
-    font-size: 24px;
-}
+a.post-link {
+    color: #333;
+    transition: .1s ease;
 
-
-
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
+    &:hover {
+        color: #00ffe3;
     }
 }
 
-.post-content {
-    margin-bottom: $spacing-unit;
 
-    h2 {
-        font-size: 32px;
 
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
 
-    h3 {
-        font-size: 26px;
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
+/* ==============================
 
-    h4 {
-        font-size: 20px;
+PROJECT PAGE SPECIFIC STYLING 
 
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
+============================== */
+
+#self01, #self02, #self03 {
+    background: url('../imgs/site_wide/tiy_portrait.jpg');
+    background-size: cover;
+    width: 90%;
+}
+
+
+
+
+
+/* HIDDEN ELEMENTS AT LOAD */
+
+.hero {
+    background: url('../imgs/temp_img/ipad_mac.jpg');
+    background-position: fixed;
+    background-size: cover;
+    display: none;
+    height: 300px;
+    margin-top: -80px;
 }

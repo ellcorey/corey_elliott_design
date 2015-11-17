@@ -2,12 +2,17 @@
 layout: post
 title: Designing for Mobile
 date: 2015-10-12
-categories: TIY, UI, design, mobile, ios
+categories: TIY UI design mobile ios
+permalink: designing-for-mobile
 ---
 
 Designing for mobile is an ever changing and intriguing task. We're constantly reevaluating how people use a product and adapting to an endless supply of new device technology. Some designers find themselves questioning not just what mobile means tomorrow, but even what it means today.
 
-Let's take a look at the environment a mobile device is likely to be used, and for this post's sake, let's say mobile devices consist solely of phones and tablets (I won't even touch on the $MM market that is wearables). Mobile devices could be and practically are used everywhere, in almost any environment. Often, they're used with little to moderate attention as someone tries to achieve the task at hand quickly. Luke Wroblewski says in his book, [Mobile First](http://www.lukew.com/resources/mobile_first.asp), refers to this on the go, low attention use case as "one eyball and one thumb." I find this to be an accurate description and feel strongly that if you think this way, your product will maintain its focus.
+Let's take a look at the environment a mobile device is likely to be used, and for this post's sake, let's say mobile devices consist solely of phones and tablets (I won't even touch on the $MM market that is wearables). Mobile devices could be and practically are used everywhere, in almost any environment. Often, they're used with little to moderate attention as someone tries to achieve the task at hand quickly. Luke Wroblewski says in his book, [Mobile First](http://www.lukew.com/resources/mobile_first.asp), refers to this on the go, low attention use case as 
+
+>"one eyball and one thumb." 
+
+I find this to be an accurate description and feel strongly that if you think this way, your product will maintain its focus.
 
 Quickly covering the external environment shows how important it is to maintain laser focus within your mobile product so a user can achieve the desired task. Now the device itself can be added to the equation. Devices have a multitude of display sizes, display resolutions, hardware abilities, physical button layouts, and various ways to connect to the internet. If you're designing for mobile web, it is imperative to consider many if not all of these variables. Building a native app may allow you to narrow down some of these, dependent on the OS, but that's another discussion entirely.
 

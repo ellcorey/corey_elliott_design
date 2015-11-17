@@ -1,23 +1,70 @@
 ---
-layout: default
 ---
 
-<div class="home">
+<!DOCTYPE html>
+<html>
 
-  <h1 class="page-heading">Posts</h1>
+  {% include head.html %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    {% include header.html %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <body>
+      <div class="splash fade-in">
+        <div class="splash-title fade-in">
+        <h1>Corey Elliott</h1>
+        <h3>Austin-based UI designer with a focus on mobile and native-mobile design.</h3></div>
+        <a href="#" class="splash-arrow fade-in"><img src="{{ site.baseurl }}/imgs/site_wide/down-arrow.png" alt="" /></a>
+      </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div class="wrapper">
+      <header class="cf">
+      </header>
+  
+  <section class="main-content">
+    <div class="hero full-width"></div>
 
-</div>
+     <section class="content-block about-index">
+      <div class="profile-card">
+        <div class="portrait"></div>
+        <span>UI & Visual Designer</span>
+      </div>
+        <h3>A little bit about me.</h3>
+        <p>I'm a local Austinite with a passion for all things design! Self taught in the field of graphic design, I attended The Iron Yard to learn User Interface design in 2015. I love learning about how people and technology interact, and thinking about how to those interactions more enjoyable.</p>
+    </section>
+
+    <section class="content-block full-width">
+      <h3>Contact</h3>
+
+    </section>
+
+    <section class="content-block row">
+      <h2>Selected Work</h2>
+      <div class="project-card">
+        <div class="card-img zephyrTitle"></div>
+        <p>Zephyr is a conceptual native-app designed to give bicycle commuters routes designed with safety and effort in mind. This project encompassed a wide range of UX and UI discovery, planning, and design.</p>
+       <a href="#"><h4>See full overview.</h4></a>
+      </div>
+
+      <div class="project-card">
+        <div class="card-img grTitle"></div>
+        <p>Goodreads is a web app for readers to keep track of books as well as interact with other readers. Massive amount of conent and a dusty design make it feel long in the tooth. This is a conceptual redesign of the main Goodreads section.</p>
+        <a href="#"><h4>See full overview.</h4></a>
+      </div>
+
+      <div class="project-card">
+        <div class="card-img tkpTitle"></div>
+        <p>The Kindness Project was a prototype built for a client. The client wanted to see what two designers could come up with regarding an iOS application that would help challenge, embed, and spread acts of kindess.</p>
+        <a href="#"><h4>See full overview.</h4></a>
+      </div>
+
+    </section>
+
+  </body>
+  <footer>
+    <p>Made in Austin | &copy; Corey Elliott, 2015</p>
+  </footer>
+  </div> <!-- END .wrapper -->
+
+   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	 <script type="text/javascript" src="js/main.js"></script>
+</html>
