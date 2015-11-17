@@ -59,4 +59,29 @@
 		margin-bottom: 2em;
 		padding: 0 5%;
 	}
+
+
+	/* PAGE CONTENT */
+
+	.page {
+	    margin-top: 4em;
+	}
+
+	.page-heading {
+	    padding: .57em 5%;
+	    margin-bottom: 1em;
+	}
+
+	.page-content {
+	    margin: 0 auto;
+	    overflow: hidden;
+	}
+
+	#self01, #self02, #self03 {
+		@include grid(4);
+	    background: url('../imgs/site_wide/tiy_portrait.jpg');
+	    background-size: cover;
+	    float: left;
+	    height: 300px;
+	}
 }

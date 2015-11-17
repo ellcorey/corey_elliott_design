@@ -51,8 +51,17 @@ footer {
     }
 }
 
+/* BLOG PAGE & POST STYLING */
+
 .post-li {
     display: block;
+    padding: .75em 5%;
+    margin-bottom: 3em;
+
+    h1, h2, h3, p {
+        padding: 0;
+        margin-bottom: .5em;
+    }
 }
 
 .post-meta {
@@ -62,6 +71,15 @@ footer {
     font-style: italic;
     font-weight: 400;
     margin-bottom: .75em;
+}
+
+a.post-link {
+    color: #333;
+    transition: .1s ease;
+
+    &:hover {
+        color: #00ffe3;
+    }
 }
 
 /* copy & pasted from other project */
@@ -129,6 +147,12 @@ footer {
 .page-content {
     margin: 0 auto;
     overflow: hidden;
+}
+
+#self01, #self02, #self03 {
+    background: url('../imgs/site_wide/tiy_portrait.jpg');
+    background-size: cover;
+    width: 90%;
 }
 
 /* HIDDEN ELEMENTS AT LOAD */

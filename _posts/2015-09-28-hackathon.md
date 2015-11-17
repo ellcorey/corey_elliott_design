@@ -6,10 +6,9 @@ categories: TIY UI design projects hackothon
 permalink: /hackothon/
 ---
 
-##UI design project
+Every cohort at the Iron Yard goes through a group project known as a Hackothon — a "grueling" weekend+ long build project where the individual cohorts (UI design, front-end, back-end) are split up into teams. 
 
-###the premise
-Every cohort at the Iron Yard goes through a group project known as a Hackothon — a "grueling" weekend+ long build project where the individual cohorts (UI design, front-end, back-end) are split up into teams. Each team usually consists of a combination of students from front-end development, back-end development, and UI design courses. While each cohort varies in the way the teams are organized, the goal is the same: to create a functioning web app in less than 4 days. My cohort ran our Hackothon at the end of week 05.
+Each team usually consists of a combination of students from front-end development, back-end development, and UI design courses. While each cohort varies in the way the teams are organized, the goal is the same: to create a functioning web app in less than 4 days. My cohort ran our Hackothon at the end of week 05.
 
 ###deliverables
 
