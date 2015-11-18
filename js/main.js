@@ -1,4 +1,3 @@
-console.log('test')
 
 // FOR MENU TOGGLE
 
@@ -15,6 +14,8 @@ $(document).ready(function() {
     });
   });
 });
+
+console.log('y into the pipe?');
 
 // FOR HAMBURGER ICON ANIMATION
 (function() {
