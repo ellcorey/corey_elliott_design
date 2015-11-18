@@ -35,39 +35,14 @@ INDEX PAGE
 
 ============================== */
 
-.about-index {
-    margin-top: 2em;
-}
-
-footer {
-    background: black;
-    clear: both;
-    margin-top: 3em;
-    width: 100%;
-    
-    p {
-        color: white;
-    }
-
-    .icon {
-        display: block;
-        height: 2.5em;
-        width: 2.5em;
-    }
-
-    .social-media-list {
-        padding: 0 5%;
-
-        li {
-            display: inline-block;
-        }
-    }
-}
-
 section {
     h1, h2, h3, h4, p {
         padding: .75em 5%;
     }
+}
+
+.content-block {
+    margin-bottom: 4em;
 }
 
 .full-width {
@@ -75,24 +50,32 @@ section {
     color: white;
 }
 
+.about-index {
+    margin: 3em 0 4em 0;
+}
+
 .profile-card {
 
     .portrait {
         background: url('../imgs/site_wide/tiy_portrait.jpg');
         background-size: cover;
-        height: 300px;
+        height: 320px;
+        margin-bottom: 2em;
+        position: relative;
+        z-index: -1;
     }
 
     span {
-        background: #333;
+        background: rgba(55,55,55, .5);
+        bottom: 0;
         color: white;
-        display: block;
         font-family: $base-font-family;
         font-size: 1.25em;
         font-weight: 300;
-        margin: 0 auto;
-        padding: 1em;
+        padding: 1em .5em;
+        position: absolute;
         text-align: center;
+        width: 100%;
     }
 }
 
@@ -125,6 +108,33 @@ section {
     background-size: 86%;
 }
 
+footer {
+    background: black;
+    clear: both;
+    margin-top: 3em;
+    width: 100%;
+    
+    p {
+        color: white;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .icon {
+        display: block;
+        height: 2.5em;
+        width: 2.5em;
+    }
+
+    .social-media-list {
+        padding: 0 5%;
+
+        li {
+            display: inline-block;
+        }
+    }
+}
+
 
 
 /* ==============================
@@ -140,7 +150,7 @@ UNIVERSAL PAGE LAYOUT STYLING
 
 .page-heading {
     padding: .57em 5%;
-    margin-bottom: 1em;
+    margin: 1.5em 0 .5em 0;
 }
 
 .page-content {
@@ -209,11 +219,16 @@ PROJECT PAGE SPECIFIC STYLING
 
 /* HIDDEN ELEMENTS AT LOAD */
 
+.nav-title {
+    display: none;
+    color: #333;
+    font-family: $base-font-family;
+    font-size: 2.5em;
+}
+
 .hero {
-    background: url('../imgs/temp_img/ipad_mac.jpg');
-    background-position: fixed;
+    background: url('../imgs/site_wide/weltbg.png');
     background-size: cover;
     display: none;
     height: 300px;
-    margin-top: -80px;
 }
