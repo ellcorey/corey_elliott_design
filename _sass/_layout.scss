@@ -45,10 +45,40 @@ section {
     margin-bottom: 4em;
 }
 
-.full-width {
-    background: black;
+.social-block {
+    @include clearfix;
+    border-bottom: .25em solid #333;
     color: white;
+    padding: 0 5%;
+    text-align: center;
+    
+    h3 {
+        padding: 0;
+    }
+
+    ul {
+        list-style: none;
+        padding-bottom: 1em;
+        vertical-align: middle;
+        
+        li {
+            display: inline-block;
+            padding: 0 1%;
+
+            .iconTemp {
+                background: tomato;
+                height: 2em;
+                width: 2em;
+                border-radius: 50%;
+
+            }
+        }
+    }
 }
+
+// #footer { width: 100%; overflow: hidden; }
+// #footer ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
+// #footer ul li { position: relative; float: left; display: block; right: 50%; }
 
 .about-index {
     margin: 3em 0 4em 0;
@@ -81,7 +111,7 @@ section {
 
 .project-card {
     border: .25em solid #333;
-    box-shadow: 5px 5px 0 #ef6a5a;
+    box-shadow: 5px 5px 0 tomato;
     margin: 1em auto;
     min-height: 300px;
     padding-bottom: 2em;
