@@ -47,60 +47,40 @@ A competitive market analysis was created to see if a similar product already ex
 I looked to a few apps for well designed and thought out UI. Strava and Waze are two that provided inspiration. Strava for a clean and modern UI high on contrast with plenty of gamification, and Waze for clever hands-free actions. Waze is also known well for users reports --- reported issues that can serve as temporary alerts, or even help to re-route other users.
 
 #### Personas
-I used personas to help distill down my possible user base and aid in design decisions, and were created using my research. The personas primarily indicate people who are already willing to use a bike as transportation.
+I used personas to help distill down my possible user base and aid in design decisions, and were created using my research. The personas primarily indicate people who are already willing to use a bike as transportation. The personas I used can be [seen on github](https://github.com/ellcorey/zephyr/blob/master/discovery_research/personas.md "Zephyr Personas").
 
-#### Joanna
-- Neighborhood: Mueller
-- Commute: 5 miles
-- Title: software developer
-- Age: 33
-Joanna is renting in Mueller and working downtown in the Tech industry. Moved to Austin from Raleigh, NC a little over a year ago. After renting in South Austin, she moved to Mueller to live more centrally and stop relying on her car as much. Determined but a bit of a procrastinator.
+### Design
+The Design process was split between the app prototype and the website. Throughout this process, I sought out and received feedback for verification that the design direction matched my intentions.
 
-    + loves finding new restaurants
-    + often attends live music shows
-    + plays recreational adult team sports (kickball, whiffle ball, etc.)
-    + prefers movie experience at Alamo Drafthouse
-    + travels with Southwest Airlines
-    + comfortable with hand tools
+#### Style tiles
+Style tiles were created to give a rough idea of color palettes, fonts, patterns, and other elements and how they would work together. After putting together 3, I received feedback and created the 4th that ultimately became the chosen tile.
 
-#### Michael
-- Neighborhood: Duval Estates
-- Commute: 16 miles
-- Title: education admin
-- Age: 40
-Longtime Austin resident, Michael, hates driving, especially in traffic. Environmentally conscious, active in local community non-profits. Family of 4 with 2 children, living in North Austin for over a decade. Commutes across town to South Austin and primarily uses mass transit. Cycles on weekends without prior engagements.
+Using vibrant, bright blue hues allowed me to create contrast with dark greys for legibility, while providing a fun and calming overall feeling. Zephyr's main font is Museo Sans Rounded which is a modern and friendly sans-serif. Ostrich Sans Black was chosen for dashboard numbers due to its modern, sleek appearance, and its condensed nature.
 
-    + donates time to educational assistance for children
-    + has a woodworking shop set up in his garage
-    + spends time gardening home grown vegetables
-    + adopted a pit bull with his kids
-    + owns a 7 year old Subaru wagon
-    + enjoys an evening downtown with his wife every other month
+#### User flows
+I mapped out primary functions using rough user flows to get a mental road-map prior to low-fidelity sketches. User flows often provide me with great opportunities to imagine the interface while making sure to stay focused on feature begin mapped. These are essential for me when working with mobile design.
 
-#### Dale
-- Neighborhood: Zilker
-- Commute: 4 miles
-- Title: server
-- Age: 28
-Dale rents a small place in Zilker from a friend. He works as a server at a couple different locations on the East side, and relies solely on a bicycle for transportation.
+#### Low-fidelity sketches
+Sketching provided an easy way to begin taking UI inventory and solidifying layout ideas.
 
-    + doesn't spend much time at home
-    + has had poor experiences with public transportation
-    + plays in a honky tonk band and is heavy into the local music community
-    + tries to be outside in his free time
-    + donates a little time when he can to work with Austin Pets Alive
-    + enjoys a stiff, cheap drink daily
+#### Wire frames
+Wire frames were created for two screens --- both portrait and landscape --- using sketch. I find Sketch's artboards feature makes creating wireframes much easier. Even though landscape was not used in the prototype, I wanted to consider it as a possibility while doing the design --- thinking about the layout helped me better create the portrait components.
 
-### Let's get to B
-The concept of Zephyr is an app that will take existing map data (topography, road ways, bike lanes, traffic), combine it with user-sourced data (anonymous tracking, issue reports)
+#### High-fidelity mockups
+High-fidelity mockups were created with Adobe Illustrator. After the mockups were created, I created individual UI assets by exporting layers as .png files for use in the prototyping stage.
 
-In a perfect world, research starts before a project, and continues right up until it's unsupported. The Iron Yard is not a perfect world, and with research set, design began.
+#### Pixate prototyping
+Prototyping was done in Pixate --- chosen due to a relatively easy learning curve and powerful interaction creation. The process required learning the application while planning out appropriate layering, user interactions, and conditional animations.
 
+During the prototyping phase, I was constantly aware of how the product would be used environmentally, and the feedback I wanted the user to receive. That meant deciding on simple, responsive animations that would prevent disorientation within the app, and minimizing the steps to complete a task.
 
+### Website rapid-prototyping
+Once the app prototype was complete, I needed to create a single-page site to display Zephyr's use and feeling. I used responsive web design principles and technologies with mobile first thinking throughout this process. 
 
-
-
-
-I started with a [word list](https://github.com/ellcorey/zephyr/blob/master/discovery_research/wordlist.md/ "word list")
-
+Technology used:
+- HTML5 w. semantic markup
+- CSS pre-processor (SCSS)
+- Media queries for responding to different screen sizes
+- Bourbon by Thoughtbot (SCSS Library)
+- Jquery w. Slick carousel plugin
 
