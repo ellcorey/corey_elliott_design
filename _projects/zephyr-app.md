@@ -16,44 +16,38 @@ The project is hosted through a combination of Github and Pixate and can be easi
 
 - [Full project](https://github.com/ellcorey/zephyr "Zephyr Project on Github")
 - [Responsive splash site](http://ellcorey.github.io/zephyr "Zephyr website")
-- [Pixate prototype](https://app.pixate.com/pd5cfa667fcce "Zephyr Prototype") (requres download of free pixate app)
+- [Pixate prototype](https://app.pixate.com/pd5cfa667fcce "Zephyr Prototype") (requres download of free Pixate app)
 
 ### Conceptual overview
-The concept of Zephyr is an app that will take existing map data (topography, road ways, bike lanes, traffic), combine it with user-sourced data (anonymous tracking, issue reports)
+The concept of Zephyr is an app that will take existing map data (topography, road ways, bike lanes, traffic), combine it with user-sourced data (anonymous tracking, issue reports), and use that information to provide bicycle commuters with a safe route that attempts to negate geographical.
 
-I love my city. I also love bicycles like a lot of other Austinites. I've lived here for 26+ years (at the the time of this writing), and I have yet to figure out why Austin is considered "bike-friendly". Excluding recreational cyclists, there's not as many cyclists on the road as you'd expect. I wanted to find out why Austin has a minuscule bicycle-commuting population, and go about creating a digital, user-centered application to help put some truth into "bike-friendly Austin".
+With this app, we could increase bicycle commuting in Austin. There are many advantages to having a larger bicycling population, but one of the largest is that overall the city becomes happier and safer.
 
 ### Research & Discovery
-Jumping into design without research might as well be like diving into an empty pool. You've got to have data to backup your design direction, and I like to have lots of it.
+Even though I had an idea, I needed verify my hypothetical solution with research. Research also provides direction in design and is required when taking on a project (it can also be pretty neat and insightful).
 
-My hypothesis regarding why there's a dearth of commuting cyclists is primarily centered around a lack of routing knowledge and fear of being in amongst the traffic. Most motorists would be hard pressed to find a new route if they were forced to commute by bike. Scouting routes is a pain in the ass (sometimes literally), and results can be skewed &emdash most people won't scout a route at the same time of day they'd as their commute.
+#### Questioning & surveying
+Research began with a survey I created using [Google Forms](http://www.google.com/forms/ "Google Forms") (the actual form can be seen [here](http://goo.gl/forms/iIKEmh38Yj/ "bicycle commuting form")). I sent this form out via a variety of channels and waited for incoming response frequency to slow before analyzing the data. Responses varied, but unsurprisingly fell within several key areas of focus. Traffic, routing, and weather were predominant issues.
 
-#### Questioning & surveys
-I began my research by creating a survey using [Google Forms](http://www.google.com/forms/ "Google Forms") (the actual form can be seen [here](http://goo.gl/forms/iIKEmh38Yj/ "bicycle commuting form")). Getting unbiased responses always seems easier with anonymous forms, especially when they're pinged to social media by the form creator. I needed answers quickly given the compressed time line for the project so I sent the form on a local slack channel, social media, and out to friends and family.
-
-While waiting on form responses, I solicited friends who are active in the cycling community to get their opinions on commuting and cycling in Austin. The responses were generally in line with each other and pointed out that despite the perceived Austin bike infrastructure's goodness, it was in fact poor.
+I solicited friends who are active in the cycling community in addition to the survey. The responses were generally in line with each other and pointed out Austin's bike infrastructure is better perceived than it actually is.
 
 >"The bike lanes are worse than a joke--they're on major roads and they'll just disappear for a block or two..."
 
-After seeing the survey responses slow down, I pulled the data and took a look. While some things are outside of a rider's control (distance to destination or weather), what can be controlled is largely thought to be overwhelming and pertains to routing and traffic/safety concerns. Even though my sample size was very small, it closely matched the Austin bicycle-commuter percentage of ~1.5%.
-
 [View the survey results and analysis](https://github.com/ellcorey/zephyr/blob/master/discovery_research/survey_results.md/ "survey says...")
 
-#### Lists & general research
-After verifying my hypothesis with some potential user-mined data, it was time to make some lists and read about bicycle commuting. I started with a [word list](https://github.com/ellcorey/zephyr/blob/master/discovery_research/wordlist.md/ "word list") of things pertaining to bicycles and commuting to aid in future design direction and personas. 
+#### General research
+Throughout the project, I used resources like [Bike Austin](www.bikeaustin.org/ "Bike Austin"), [The League of American Bicyclists](http://www.bikeleague.org/ "League of American Bicyclists"), and [Copenhagenize](http://copenhagenize.eu/ "Copenhagenize") to back up the data I'd collected myself. I also made notes of information that may not directly pertain to my problem, but could assist in the direction.
 
-I used resources like [Bike Austin](www.bikeaustin.org/ "Bike Austin"), [The League of American Bicyclists](http://www.bikeleague.org/ "League of American Bicyclists"), and [Copenhagenize](http://copenhagenize.eu/ "Copenhagenize") to back up the data I'd collected myself. I also made notes of information that may not directly pertain to my problem, but could assist in the direction.
+#### Competitive market analysis
+A competitive market analysis was created to see if a similar product already existed and what competing products may offer. The cycling app market is cluttered with apps targeted at recreational cyclists --- they do not help the commuting cyclist. 
 
-A competitive market analysis was created to see if a similar product already existed. The cycling app market is cluttered with apps targeted at recreational cyclists. While many of them are good, and some are fantastic, they do not help the commuting cyclist. 
+[Ride the City](http://www.ridethecity.com/ "Ride the City") is one app that offers "safer routes" as a solution. Users cite a cumbersome, unattractive UI, and poor routes specifically in Austin as issues. I had difficulty locating information on how routes are built --- the lack of transparency potentially leading to pain points while en route. A large opportunity to add community aspects also exists.
 
-[Ride the City](http://www.ridethecity.com/ "Ride the City") is one app that offers "safer routes" as a solution. The app has a pretty mediocre rating, with users citing a cumbersome, unattractive UI, and poor routes specifically in Austin. There was difficulty locating information on exactly how routes are chosen and that could potentially lead to pain points with a user having issues after already beginning their trip. Lastly, I see a large opportunity to add community aspects to retain users and grow the user base holistically.
-
-The last list I assembled was for inspirational use. I chose a few apps that I enjoy using and believe have well designed and thought out UI. Out of the several I chose, Strava and Waze provided the most inspiration. Strava for a clean and modern UI high on contrast with plenty of gamification, and Waze for clever hands-free actions and a similar idea, only targeted towards fastest routes for motorists. Something Waze is also known well for is the ability for users to report issues along their commute that can then serve as temporary alerts, or even help to re-route other users.
+#### Inspirational apps
+I looked to a few apps for well designed and thought out UI. Strava and Waze are two that provided inspiration. Strava for a clean and modern UI high on contrast with plenty of gamification, and Waze for clever hands-free actions. Waze is also known well for users reports --- reported issues that can serve as temporary alerts, or even help to re-route other users.
 
 #### Personas
-Given that a wide range of people may use a bicycle for commuting, I needed to create a few personas to help narrow down design decisions. The personas were widely based on information I received from my survey and those I spoke directly with while researching. Even people who already use a bicycle for common commutes, said they would bike more if it was easier to get safe routes on the fly.
-
-The three personas I used primarily indicate people who are already willing to use a bike as transportation and have a leaning towards a smaller environmental footprint or inclination to spend less. In the earlier stages of this concept, it would be easier to get them on board and would allow a quick growth rate before concentrating on people who require more persuasion.
+I used personas to help distill down my possible user base and aid in design decisions, and were created using my research. The personas primarily indicate people who are already willing to use a bike as transportation.
 
 #### Joanna
 - Neighborhood: Mueller
@@ -107,6 +101,6 @@ In a perfect world, research starts before a project, and continues right up unt
 
 
 
-
+I started with a [word list](https://github.com/ellcorey/zephyr/blob/master/discovery_research/wordlist.md/ "word list")
 
 
