@@ -198,6 +198,13 @@ img {
     vertical-align: middle;
 }
 
+.imgBlock1 {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 .imgBlock1,
 .imgBlock2,
 .imgBlock3,

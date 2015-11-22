@@ -76,29 +76,29 @@ MEDIA QUERIES
 	.full-width {
 		clear: both;
 	}
-}
 
-.imgBlock2, .imgBlock3 {
-	img {
-		&:first-child {
-			float: left;
-			margin-right: 2%;
-			width: 47.5%;
-		}
+	.imgBlock2, .imgBlock3 {
+		img {
+			&:first-child {
+				float: left;
+				margin-right: 2%;
+				width: 47.5%;
+			}
 
-		&:nth-child(2) {
-			float: right;
-			margin-left: 2%;
-			width: 47.5%;
+			&:nth-child(2) {
+				float: right;
+				margin-left: 2%;
+				width: 47.5%;
+			}
 		}
 	}
-}
 
-.imgBlock3 {
+	.imgBlock3 {
 
-	img {
-		&:nth-child(3) {
-			@include clearfix;
+		img {
+			&:nth-child(3) {
+				@include clearfix;
+			}
 		}
 	}
 }
