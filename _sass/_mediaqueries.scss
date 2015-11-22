@@ -138,6 +138,18 @@ MEDIA QUERIES
 	    overflow: hidden;
 	}
 
+	.project-quickNav {
+
+		li {
+			display: inline-block;
+			margin-right: 1em;
+		}
+
+	    span {
+	        display: inline-block;
+	    }
+	}
+
 	#self01, #self02, #self03 {
 		@include grid(4);
 	    background: url('../imgs/site_wide/tiy_portrait.jpg');
