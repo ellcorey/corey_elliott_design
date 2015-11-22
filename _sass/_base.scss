@@ -21,7 +21,7 @@ body {
     color: $text-color;
 } 
 
-p {
+p, li {
     font-family: $base-font-family;
     font-size: 1.25em;
     font-weight: 300;
@@ -29,16 +29,21 @@ p {
 }
 
 a {
+    color: $brand-color;
     font-weight: 700;
     text-decoration: none;
     transition: .1s ease;
 
     &:visited {
-        color: #00ffe3;
+        color: $brand-color;
     }
 
     &:hover {
-        color: #00ffe3;
+        color: $brand-color;
+    }
+
+    li {
+        font-weight: 700;
     }
 }
 
@@ -49,6 +54,7 @@ h3 {
     font-family: $base-header-font-family;
     font-weight: 700;
     letter-spacing: -.03em;
+    text-transform: capitalize;
 }
 
 h1 {
@@ -65,19 +71,20 @@ h3 {
 
 h4 {
     font-family: $base-font-family;
+    font-size: 1.25em;
     font-weight: 700;
 }
 
-
-
-/* Images */
-
-img {
-    max-width: 100%;
-    vertical-align: middle;
+blockquote {
+    background: tint($brand-color, 75%);
+    border-left: .25em solid #333;
+    font-family: $base-font-family;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0 5%;
+    padding: .75em 5%;
 }
-
-
 
 /* Icons */
 

@@ -36,13 +36,15 @@ INDEX PAGE
 ============================== */
 
 section {
-    h1, h2, h3, h4, p {
+
+    h1, h2, h3, h4, p, ul {
         padding: .75em 5%;
     }
 }
 
 .content-block {
-    margin-bottom: 4em;
+    margin: 0 auto 4em auto;
+    max-width: 60em;
 }
 
 .social-block {
@@ -76,12 +78,8 @@ section {
     }
 }
 
-// #footer { width: 100%; overflow: hidden; }
-// #footer ul { list-style: none; position: relative; float: left; display: block; left: 50%; }
-// #footer ul li { position: relative; float: left; display: block; right: 50%; }
-
 .about-index {
-    margin: 3em 0 4em 0;
+    margin-top: 3em;
 }
 
 .profile-card {
@@ -111,7 +109,7 @@ section {
 
 .project-card {
     border: .25em solid #333;
-    box-shadow: 5px 5px 0 tomato;
+    box-shadow: 5px 5px 0 tint($brand-color, 50%);
     margin: 1em auto;
     min-height: 300px;
     padding-bottom: 2em;
@@ -189,6 +187,34 @@ UNIVERSAL PAGE LAYOUT STYLING
 }
 
 
+/* ==============================
+
+UNIVERSAL IMAGE LAYOUT SETTINGS 
+
+============================== */
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.imgBlock1,
+.imgBlock2,
+.imgBlock3,
+.imgBlock4 {
+    max-width: 100%;
+    overflow: hidden;
+    padding: .75em 5%;
+    
+    img {
+        &:first-child,
+        &:nth-child(2),
+        &:nth-child(3) {
+            margin-bottom: 4%;
+        }
+    }
+}
+
 
 
 
@@ -237,13 +263,25 @@ PROJECT PAGE SPECIFIC STYLING
 
 ============================== */
 
+.project-img {
+    background-size: 30%;
+    height: 5.5em;
+    width: 50%;
+    margin-top: 2em;
+}
+
 #self01, #self02, #self03 {
     background: url('../imgs/site_wide/tiy_portrait.jpg');
     background-size: cover;
     width: 90%;
 }
 
+.project-quickNav {
 
+    span {
+        display: none;
+    }
+}
 
 
 

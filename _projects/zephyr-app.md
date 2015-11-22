@@ -18,13 +18,13 @@ The project is hosted through a combination of Github and Pixate and can be easi
 - [Responsive splash site](http://ellcorey.github.io/zephyr "Zephyr website")
 - [Pixate prototype](https://app.pixate.com/pd5cfa667fcce "Zephyr Prototype") (requres download of free Pixate app)
 
-### Conceptual overview
+### Concept overview
 The concept of Zephyr is an app that will take existing map data (topography, road ways, bike lanes, traffic), combine it with user-sourced data (anonymous tracking, issue reports), and use that information to provide bicycle commuters with a safe route that attempts to negate geographical.
 
 With this app, we could increase bicycle commuting in Austin. There are many advantages to having a larger bicycling population, but one of the largest is that overall the city becomes happier and safer.
 
 ### Research & Discovery
-Even though I had an idea, I needed verify my hypothetical solution with research. Research also provides direction in design and is required when taking on a project (it can also be pretty neat and insightful).
+Even though I had an idea, I needed to verify my hypothetical solution with research. Research also provides direction in design and is required when taking on a project (it can also be pretty neat and insightful).
 
 #### Questioning & surveying
 Research began with a survey I created using [Google Forms](http://www.google.com/forms/ "Google Forms") (the actual form can be seen [here](http://goo.gl/forms/iIKEmh38Yj/ "bicycle commuting form")). I sent this form out via a variety of channels and waited for incoming response frequency to slow before analyzing the data. Responses varied, but unsurprisingly fell within several key areas of focus. Traffic, routing, and weather were predominant issues.
