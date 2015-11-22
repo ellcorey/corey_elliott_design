@@ -1,20 +1,55 @@
-@media screen and(min-width: 720px) {
+/* ==============================
 
-	header {
-		background: 
-		linear-gradient(
-		rgba(125, 125, 125, .7),
-		rgba(80, 80, 80, .25));
+MEDIA QUERIES
+
+============================== */
+
+@media screen and(min-width: 420px) {
+
+	.splash-title {
+
+		.splash-container {
+			padding: 1.2em;
+			width: 315px;
+
+			h1 {
+				font-size: 5.5em;
+			}
+
+			h3 {
+				font-size: 1.6em;
+			}
+		}
 	}
 	
-	.hero {
+	.profile-card{
+
+		.portrait {
+			background-position: 50% 25%;
+			height: 380px;
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media screen and(min-width: 565px) {
+
+	h1, h2, h3, h4, p {
+		@include clearfix;
+	}
+
+	.splash-title {
+		margin-top: 35%;
+	}
+
+		.hero, {
 		display: block;
 	}
 
 	section {
     
     	h2 {
-       		padding: .75em 0;
+       		padding: .75em 5%;
        	}
     }
 
@@ -24,21 +59,15 @@
 
 		.profile-card {
 			float: left;
-			margin: 2em 2.5% 2em 5%;
+			margin: 0 2.5% 0 5%;
 			width: 42.5%;
 		}
 
-		p {
+		&:nth-child(4){
 			float: right;
 			height: 300px;
-			margin: 1em 5% 2em 2.5%;
-			padding: 0;
-			width: 42.5%;
-		}
-
-		h3 {
-			float: right;
-			margin: 2em 5% 1em 2.5%;
+			margin: 0 5% 0 2.5%;
+			overflow: hidden;
 			padding: 0;
 			width: 42.5%;
 		}
@@ -46,6 +75,38 @@
 
 	.full-width {
 		clear: both;
+	}
+
+	.imgBlock2, .imgBlock3 {
+		img {
+			&:first-child {
+				float: left;
+				margin-right: 2%;
+				width: 47.5%;
+			}
+
+			&:nth-child(2) {
+				float: right;
+				margin-left: 2%;
+				width: 47.5%;
+			}
+		}
+	}
+
+	.imgBlock3 {
+
+		img {
+			&:nth-child(3) {
+				@include clearfix;
+			}
+		}
+	}
+}
+
+@media screen and(min-width: 720px) {
+
+	.splash-title {
+		margin-top: 24%;
 	}
 	
 	.project-card {
@@ -64,7 +125,7 @@
 	/* PAGE CONTENT */
 
 	.page {
-	    margin-top: 4em;
+	    margin-top: 4.125em;
 	}
 
 	.page-heading {
@@ -83,5 +144,18 @@
 	    background-size: cover;
 	    float: left;
 	    height: 300px;
+	}
+}
+
+@media screen and(min-width: 868px) {
+
+	.splash-title {
+		margin-top: 200px;
+	}
+
+	.nav-title {
+		display: inline-block;
+		padding: .2em 0 0 .08em;
+		vertical-align: top;
 	}
 }

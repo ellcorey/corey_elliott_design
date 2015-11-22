@@ -1,5 +1,6 @@
 .navigation {
   background: #777;
+  border-bottom: 1px solid $brand-color;
   $large-screen: em(860) !default;
   $large-screen: $large-screen;
   position: fixed;
@@ -25,6 +26,7 @@
 
   .logo {
     float: left;
+    margin: 7px 0;
 
     img {
       height: 2.5em;
@@ -43,7 +45,7 @@
     @include media ($large-screen) {
       float: right;
       line-height: 1.5em;
-      padding-top: 0.3em;
+      padding-top: 0.7em;
     }
   }
 
@@ -78,7 +80,7 @@
 
     @include media ($large-screen) {
       background: transparent;
-      display: inline;
+      display: inline-block;
       text-decoration: none;
       width: auto;
     }

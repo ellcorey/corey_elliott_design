@@ -21,7 +21,7 @@ body {
     color: $text-color;
 } 
 
-p {
+p, li {
     font-family: $base-font-family;
     font-size: 1.25em;
     font-weight: 300;
@@ -29,16 +29,21 @@ p {
 }
 
 a {
+    color: $brand-color;
     font-weight: 700;
     text-decoration: none;
     transition: .1s ease;
 
     &:visited {
-        color: #00ffe3;
+        color: $brand-color;
     }
 
     &:hover {
-        color: #00ffe3;
+        color: $brand-color;
+    }
+
+    li {
+        font-weight: 700;
     }
 }
 
@@ -49,35 +54,37 @@ h3 {
     font-family: $base-header-font-family;
     font-weight: 700;
     letter-spacing: -.03em;
-}
-
-h4 {
-    font-family: $base-font-family;
-    font-weight: 700;
+    text-transform: capitalize;
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2.25em;
 }
 
 h3 {
     font-size: 1.75em;
 }
 
-
-
-/* Images */
-
-img {
-    max-width: 100%;
-    vertical-align: middle;
+h4 {
+    font-family: $base-font-family;
+    font-size: 1.25em;
+    font-weight: 700;
 }
 
-
+blockquote {
+    background: tint($brand-color, 75%);
+    border-left: .25em solid #333;
+    font-family: $base-font-family;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0 5%;
+    padding: .75em 5%;
+}
 
 /* Icons */
 
@@ -85,4 +92,29 @@ path {
     fill: $brand-color;
 }
 
+
+/* Textures */
+
+// .texture {
+//   $texture-top-background: lighten(#ddf0ef, 1%);
+//   $texture-bottom-background: darken(#ddf0ef, 10%);
+//   height: 5em;
+//   width: 100%;
+
+//   .texture-normal {
+//     // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal  
+//     @include texture(180deg, $texture-top-background, $texture-bottom-background, 67, 1); 
+//     float: left;
+//     height: 5em;
+//     width: 50%;
+//   }
+
+//   .texture-inverted {
+//     // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal  
+//     @include texture(180deg, $texture-top-background, $texture-bottom-background, 67, 0); 
+//     float: left;
+//     height: 5em;
+//     width: 50%;
+//   }
+// }
 
