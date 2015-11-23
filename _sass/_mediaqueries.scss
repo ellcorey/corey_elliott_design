@@ -84,17 +84,18 @@ MEDIA QUERIES
 	}
 
 	.imgBlock2, .imgBlock3 {
+
 		img {
 			&:first-child {
 				float: left;
 				margin-right: 2%;
-				width: 47.5%;
+				width: 48%;
 			}
 
 			&:nth-child(2) {
 				float: right;
 				margin-left: 2%;
-				width: 47.5%;
+				width: 48%;
 			}
 		}
 	}
@@ -104,6 +105,40 @@ MEDIA QUERIES
 		img {
 			&:nth-child(3) {
 				@include clearfix;
+				display: block;
+				margin: 0 auto;
+				max-width: 50%;
+			}
+		}
+	}
+
+	.imgBlock4 {
+
+		img {
+			&:first-child,
+			&:nth-child(3) {
+				float: left;
+				margin-right: 2%;
+				width: 48%;
+			}
+			&:nth-child(2),
+			&:nth-child(4) {
+				float: right;
+				margin-left: 2%;
+				width: 48%;
+			}
+		}
+	}
+
+	.imgCol3 {
+
+		img {
+			float: left;
+			margin-right: 4%;
+			width: 30.33%;
+
+			&:nth-child(3) {
+				margin-right: 0;
 			}
 		}
 	}
