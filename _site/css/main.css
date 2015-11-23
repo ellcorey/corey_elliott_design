@@ -1,0 +1,731 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* ===============
+    BASE STYLES
+   ============ */
+/* ===============
+    VARIABLES
+   ============ */
+/* ===============
+    TEXT STYLING
+   ============ */
+body {
+  color: #333; }
+
+p, li {
+  font-family: "aaux-next", Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+  font-weight: 300;
+  line-height: 1.5em; }
+
+a {
+  color: #00ff99;
+  font-weight: 700;
+  text-decoration: none;
+  transition: .1s ease; }
+  a:visited {
+    color: #00ff99; }
+  a:hover {
+    color: #00ff99; }
+  a li {
+    font-weight: 700; }
+
+h1,
+h2,
+h3 {
+  color: #333;
+  font-family: "nimbus-sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  text-transform: capitalize; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2.25em; }
+
+h3 {
+  font-size: 1.75em; }
+
+h4 {
+  font-family: "aaux-next", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: 700; }
+
+blockquote {
+  background: #bfffe6;
+  border-left: .25em solid #333;
+  font-family: "aaux-next", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 700;
+  margin: 0 5%;
+  padding: .75em 5%; }
+
+/* Icons */
+path {
+  fill: #00ff99; }
+
+/* Textures */
+.navigation {
+  background: #777;
+  border-bottom: 1px solid #00ff99;
+  position: fixed;
+  width: 100%; }
+  .navigation .navigation-menu-button {
+    display: block;
+    float: right;
+    margin: 0; }
+    @media screen and (min-width: 47.77778em) {
+      .navigation .navigation-menu-button {
+        display: none; } }
+  .navigation .navigation-wrapper {
+    position: relative; }
+    .navigation .navigation-wrapper::after {
+      clear: both;
+      content: "";
+      display: table; }
+  .navigation .logo {
+    float: left;
+    margin: 7px 0; }
+    .navigation .logo img {
+      height: 2.5em;
+      padding-right: 1em; }
+  .navigation .svglogo {
+    height: 3em;
+    vertical-align: center; }
+  .navigation nav {
+    float: none; }
+    @media screen and (min-width: 47.77778em) {
+      .navigation nav {
+        float: right;
+        line-height: 1.5em;
+        padding-top: 0.7em; } }
+  .navigation ul.navigation-menu {
+    clear: both;
+    display: none;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    width: 100%; }
+    @media screen and (min-width: 47.77778em) {
+      .navigation ul.navigation-menu {
+        display: block;
+        margin: 0;
+        padding: 0; } }
+    .navigation ul.navigation-menu.show {
+      display: block; }
+  .navigation ul li.nav-link {
+    background: #777;
+    display: block;
+    font-family: "nimbus-sans", Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: right;
+    width: 100%; }
+    @media screen and (min-width: 47.77778em) {
+      .navigation ul li.nav-link {
+        background: transparent;
+        display: inline-block;
+        text-decoration: none;
+        width: auto; } }
+  .navigation li.nav-link a {
+    display: inline-block; }
+    @media screen and (min-width: 47.77778em) {
+      .navigation li.nav-link a {
+        float: right;
+        padding-right: 1em; } }
+
+/* ==============================
+
+BASE PAGE LAYOUTS FOR MOBILE SIZE 
+
+============================== */
+/* ==============================
+
+INDEX PAGE
+
+============================== */
+section h1, section h2, section h3, section h4, section p, section ul {
+  padding: .75em 5%; }
+
+.content-block {
+  margin: 0 auto 4em auto;
+  max-width: 60em; }
+
+.social-block {
+  border-bottom: .25em solid #333;
+  color: white;
+  padding: 0 5%;
+  text-align: center; }
+  .social-block::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .social-block h3 {
+    padding: 0; }
+  .social-block ul {
+    list-style: none;
+    padding-bottom: 1em;
+    vertical-align: middle; }
+    .social-block ul li {
+      display: inline-block;
+      padding: 0 1%; }
+      .social-block ul li .iconTemp {
+        background: tomato;
+        height: 2em;
+        width: 2em;
+        border-radius: 50%; }
+
+.about-index {
+  margin-top: 3em; }
+
+.profile-card .portrait {
+  background: url("../imgs/site_wide/tiy_portrait.jpg");
+  background-size: cover;
+  height: 320px;
+  margin-bottom: 2em;
+  position: relative;
+  z-index: -1; }
+.profile-card span {
+  background: rgba(55, 55, 55, 0.5);
+  bottom: 0;
+  color: white;
+  font-family: "aaux-next", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: 300;
+  padding: 1em .5em;
+  position: absolute;
+  text-align: center;
+  width: 100%; }
+
+.project-card {
+  border: .25em solid #333;
+  box-shadow: 5px 5px 0 #80ffcc;
+  margin: 1em auto;
+  min-height: 300px;
+  padding-bottom: 2em;
+  width: 90%; }
+
+.card-img {
+  height: 7.5em;
+  margin-top: 2em; }
+
+.zephyrTitle {
+  background: url("../imgs/zephyr/zephyrTitle.png") center no-repeat;
+  background-size: 63%; }
+
+.grTitle {
+  background: url("../imgs/goodreads/grTitle.png") center no-repeat;
+  background-size: 83%; }
+
+.tkpTitle {
+  background: url("../imgs/tkp/tkpTitle.png") center no-repeat;
+  background-size: 86%; }
+
+footer {
+  background: black;
+  clear: both;
+  margin-top: 3em;
+  width: 100%; }
+  footer p {
+    color: white;
+    font-size: 1em;
+    text-align: center; }
+  footer .icon {
+    display: block;
+    height: 2.5em;
+    width: 2.5em; }
+  footer .social-media-list {
+    padding: 0 5%; }
+    footer .social-media-list li {
+      display: inline-block; }
+
+/* ==============================
+
+UNIVERSAL PAGE LAYOUT STYLING
+***DOES NOT INCLUDE INDEX*** 
+
+============================== */
+.page {
+  margin-top: 2em; }
+
+.page-heading {
+  padding: .57em 5%;
+  margin: 1.5em 0 .5em 0; }
+
+.page-content {
+  margin: 0 auto;
+  overflow: hidden; }
+
+/* ==============================
+
+UNIVERSAL IMAGE LAYOUT SETTINGS 
+
+============================== */
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+.imgBlock1 img {
+  display: block;
+  margin: 0 auto; }
+
+.imgBlock1,
+.imgBlock2,
+.imgBlock3,
+.imgBlock4,
+.imgCol3 {
+  max-width: 100%;
+  overflow: hidden;
+  padding: .75em 5%; }
+  .imgBlock1 img,
+  .imgBlock2 img,
+  .imgBlock3 img,
+  .imgBlock4 img,
+  .imgCol3 img {
+    margin-bottom: 4%; }
+
+/* ==============================
+
+BLOG PAGE & POST SPECIFIC STYLING 
+
+============================== */
+.post-li {
+  display: block;
+  padding: .75em 5%;
+  margin-bottom: 3em; }
+  .post-li h1, .post-li h2, .post-li h3, .post-li p {
+    padding: 0;
+    margin-bottom: .5em; }
+
+.post-meta {
+  display: inline-block;
+  font-family: "aaux-next", Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: .75em; }
+
+a.post-link {
+  color: #333;
+  transition: .1s ease; }
+  a.post-link:hover {
+    color: #00ff99; }
+
+.post-content {
+  line-height: 1.25em;
+  font-size: 1.15em;
+  padding: .75em 5%; }
+
+/* ==============================
+
+PROJECT PAGE SPECIFIC STYLING 
+
+============================== */
+.project-img {
+  background-size: 30%;
+  height: 5.5em;
+  width: 50%;
+  margin-top: 2em; }
+
+#self01, #self02, #self03 {
+  background: url("../imgs/site_wide/tiy_portrait.jpg");
+  background-size: cover;
+  width: 90%; }
+
+.project-quickNav span {
+  display: none; }
+
+.invision {
+  display: none;
+  height: 930px;
+  margin: 0 auto;
+  width: 438px; }
+
+/* HIDDEN ELEMENTS AT LOAD */
+.nav-title {
+  display: none;
+  color: #333;
+  font-family: "aaux-next", Helvetica, Arial, sans-serif;
+  font-size: 2.5em; }
+
+.hero {
+  background: url("../imgs/site_wide/weltbg.png");
+  background-size: cover;
+  display: none;
+  height: 300px; }
+
+/* Page Styles */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wrapper {
+  width: 100%; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+/* Custom Styles */
+html, body {
+  width: 100%;
+  height: 100%; }
+
+header {
+  margin: 0 0 4.125em 0;
+  padding: .2em 1.25em; }
+
+.splash {
+  background: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 360px;
+  z-index: 999;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.splash-title {
+  margin-top: 40%;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s; }
+  .splash-title .splash-container {
+    border: 0.7em solid #00ff99;
+    padding: 1em;
+    margin: 0 auto;
+    width: 75%; }
+    .splash-title .splash-container h1, .splash-title .splash-container h3 {
+      color: white;
+      text-align: left; }
+    .splash-title .splash-container h1 {
+      font-size: 4.5em; }
+    .splash-title .splash-container h3 {
+      font-size: 1.6em;
+      text-transform: lowercase; }
+
+a.splash-arrow {
+  position: absolute;
+  bottom: 55px;
+  left: 50%;
+  margin-left: -25px;
+  padding: 10px;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s; }
+  a.splash-arrow:hover {
+    text-decoration: none;
+    bottom: 50px; }
+
+/* -----------------------------------------------------------------------------
+
+  HAMBURGER ICONS COMPONENT
+  
+----------------------------------------------------------------------------- */
+/**
+ * Toggle Switch Globals
+ *
+ * All switches should take on the class `c-hamburger` as well as their
+ * variant that will give them unique properties. This class is an overview
+ * class that acts as a reset for all versions of the icon.
+ */
+.c-hamburger {
+  background: none;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 11px 0;
+  padding: 0;
+  width: 48px;
+  height: 40px;
+  font-size: 0;
+  text-indent: -9999px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer; }
+
+.c-hamburger:focus {
+  outline: none; }
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 17px;
+  left: 0px;
+  right: 0px;
+  height: 6px;
+  background: #00ff99; }
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: #00ff99;
+  content: ""; }
+
+.c-hamburger span::before {
+  top: -17px; }
+
+.c-hamburger span::after {
+  bottom: -17px; }
+
+/**
+ * Style 2
+ * 
+ * Hamburger to "x" (htx). Takes on a hamburger shape, bars slide
+ * down to center and transform into an "x".
+ */
+.c-hamburger--htx span {
+  transition: background 0s 0.3s; }
+
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s; }
+
+.c-hamburger--htx span::before {
+  transition-property: top, transform; }
+
+.c-hamburger--htx span::after {
+  transition-property: bottom, transform; }
+
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active span {
+  background: none; }
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  transform: rotate(45deg); }
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  transform: rotate(-45deg); }
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  transition-delay: 0s, 0.3s; }
+
+/* ==============================
+
+MEDIA QUERIES
+
+============================== */
+@media screen and (min-width: 420px) {
+  .splash-title .splash-container {
+    padding: 1.2em;
+    width: 315px; }
+    .splash-title .splash-container h1 {
+      font-size: 5.5em; }
+    .splash-title .splash-container h3 {
+      font-size: 1.6em; }
+
+  .profile-card .portrait {
+    background-position: 50% 25%;
+    height: 380px;
+    margin-bottom: 0; } }
+@media screen and (min-width: 487px) {
+  .invision {
+    display: block; } }
+@media screen and (min-width: 565px) {
+  h1::after, h2::after, h3::after, h4::after, p::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+  .splash-title {
+    margin-top: 35%; }
+
+  .hero {
+    display: block; }
+
+  section h2 {
+    padding: .75em 5%; }
+
+  .about-index::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .about-index .profile-card {
+    float: left;
+    margin: 0 2.5% 0 5%;
+    width: 42.5%; }
+  .about-index:nth-child(4) {
+    float: right;
+    height: 300px;
+    margin: 0 5% 0 2.5%;
+    overflow: hidden;
+    padding: 0;
+    width: 42.5%; }
+
+  .full-width {
+    clear: both; }
+
+  .imgBlock2 img:first-child, .imgBlock3 img:first-child {
+    float: left;
+    margin-right: 2%;
+    width: 48%; }
+  .imgBlock2 img:nth-child(2), .imgBlock3 img:nth-child(2) {
+    float: right;
+    margin-left: 2%;
+    width: 48%; }
+
+  .imgBlock3 img:nth-child(3) {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%; }
+    .imgBlock3 img:nth-child(3)::after {
+      clear: both;
+      content: "";
+      display: table; }
+
+  .imgBlock4 img:first-child, .imgBlock4 img:nth-child(3) {
+    float: left;
+    margin-right: 2%;
+    width: 48%; }
+  .imgBlock4 img:nth-child(2), .imgBlock4 img:nth-child(4) {
+    float: right;
+    margin-left: 2%;
+    width: 48%; }
+
+  .imgCol3 img {
+    float: left;
+    margin-right: 4%;
+    width: 30.33%; }
+    .imgCol3 img:nth-child(3) {
+      margin-right: 0; } }
+@media screen and (min-width: 720px) {
+  .splash-title {
+    margin-top: 24%; }
+
+  .project-card {
+    float: left;
+    margin-right: 2.25%;
+    width: 31.83333%;
+    float: left;
+    height: 600px; }
+    .project-card:last-child {
+      margin-right: 0; }
+
+  .row {
+    margin-bottom: 2em;
+    padding: 0 5%; }
+    .row::after {
+      clear: both;
+      content: "";
+      display: table; }
+
+  /* PAGE CONTENT */
+  .page {
+    margin-top: 4.125em; }
+
+  .page-heading {
+    padding: .57em 5%;
+    margin-bottom: 1em; }
+
+  .page-content {
+    margin: 0 auto;
+    overflow: hidden; }
+
+  .project-quickNav li {
+    display: inline-block;
+    margin-right: 1em; }
+  .project-quickNav span {
+    display: inline-block; }
+
+  #self01, #self02, #self03 {
+    float: left;
+    margin-right: 2.25%;
+    width: 31.83333%;
+    background: url("../imgs/site_wide/tiy_portrait.jpg");
+    background-size: cover;
+    float: left;
+    height: 300px; }
+    #self01:last-child, #self02:last-child, #self03:last-child {
+      margin-right: 0; } }
+@media screen and (min-width: 868px) {
+  .splash-title {
+    margin-top: 200px; }
+
+  .nav-title {
+    display: inline-block;
+    padding: .2em 0 0 .08em;
+    vertical-align: top; } }
