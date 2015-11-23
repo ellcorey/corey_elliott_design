@@ -32,6 +32,12 @@ MEDIA QUERIES
 	}
 }
 
+@media screen and(min-width: 487px) {
+	.invision {
+		display: block;
+	}
+}
+
 @media screen and(min-width: 565px) {
 
 	h1, h2, h3, h4, p {
