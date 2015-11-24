@@ -211,4 +211,15 @@ MEDIA QUERIES
 		padding: .2em 0 0 .08em;
 		vertical-align: top;
 	}
+
+	footer {
+		.footer-col-1 {
+			display: inline-block;
+		}
+		
+	    .footer-col-2 {
+	        display: inline-block;
+	        float: right;
+	    }
+	}
 }

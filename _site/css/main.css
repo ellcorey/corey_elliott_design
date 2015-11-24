@@ -199,6 +199,7 @@ INDEX PAGE
 
 ============================== */
 section h1, section h2, section h3, section h4, section p, section ul {
+  overflow: hidden;
   padding: .75em 5%; }
 
 .content-block {
@@ -277,9 +278,13 @@ section h1, section h2, section h3, section h4, section p, section ul {
 
 footer {
   background: black;
-  clear: both;
   margin-top: 3em;
+  min-height: 10em;
   width: 100%; }
+  footer::after {
+    clear: both;
+    content: "";
+    display: table; }
   footer p {
     color: white;
     font-size: 1em;
@@ -289,9 +294,11 @@ footer {
     height: 2.5em;
     width: 2.5em; }
   footer .social-media-list {
-    padding: 0 5%; }
+    font-size: .75em;
+    padding: 5% 0 5% 5%; }
     footer .social-media-list li {
-      display: inline-block; }
+      display: inline-block;
+      margin-right: 1em; }
 
 /* ==============================
 
@@ -345,7 +352,6 @@ BLOG PAGE & POST SPECIFIC STYLING
 ============================== */
 .post-li {
   display: block;
-  padding: .75em 5%;
   margin-bottom: 3em; }
   .post-li h1, .post-li h2, .post-li h3, .post-li p {
     padding: 0;
@@ -361,6 +367,7 @@ BLOG PAGE & POST SPECIFIC STYLING
 
 a.post-link {
   color: #333;
+  line-height: 1.25em;
   transition: .1s ease; }
   a.post-link:hover {
     color: #00ff99; }
@@ -369,6 +376,15 @@ a.post-link {
   line-height: 1.25em;
   font-size: 1.15em;
   padding: .75em 5%; }
+
+.post h1, .post h2, .post h3, .post h4, .post p, .post ul {
+  overflow: hidden;
+  padding: .75em 5%; }
+.post .post-header {
+  margin: 0; }
+.post .post-title {
+  margin-top: 2em;
+  padding: .75em 5% 0 5%; }
 
 /* ==============================
 
@@ -406,7 +422,8 @@ PROJECT PAGE SPECIFIC STYLING
   background: url("../imgs/site_wide/weltbg.png");
   background-size: cover;
   display: none;
-  height: 300px; }
+  height: 300px;
+  top: 0; }
 
 /* Page Styles */
 * {
@@ -728,4 +745,10 @@ MEDIA QUERIES
   .nav-title {
     display: inline-block;
     padding: .2em 0 0 .08em;
-    vertical-align: top; } }
+    vertical-align: top; }
+
+  footer .footer-col-1 {
+    display: inline-block; }
+  footer .footer-col-2 {
+    display: inline-block;
+    float: right; } }
