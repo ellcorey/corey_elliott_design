@@ -38,6 +38,7 @@ INDEX PAGE
 section {
 
     h1, h2, h3, h4, p, ul {
+        overflow: hidden;
         padding: .75em 5%;
     }
 }
@@ -137,9 +138,10 @@ section {
 }
 
 footer {
+    @include clearfix;
     background: black;
-    clear: both;
     margin-top: 3em;
+    min-height: 10em;
     width: 100%;
     
     p {
@@ -155,10 +157,12 @@ footer {
     }
 
     .social-media-list {
-        padding: 0 5%;
+        font-size: .75em;
+        padding: 5% 0 5% 5%;
 
         li {
             display: inline-block;
+            margin-right: 1em;
         }
     }
 }
@@ -230,7 +234,6 @@ BLOG PAGE & POST SPECIFIC STYLING
 
 .post-li {
     display: block;
-    padding: .75em 5%;
     margin-bottom: 3em;
 
     h1, h2, h3, p {
@@ -250,6 +253,7 @@ BLOG PAGE & POST SPECIFIC STYLING
 
 a.post-link {
     color: #333;
+    line-height: 1.25em;
     transition: .1s ease;
 
     &:hover {
@@ -265,6 +269,21 @@ a.post-link {
 
 }
 
+.post {
+        h1, h2, h3, h4, p, ul {
+        overflow: hidden;
+        padding: .75em 5%;
+    }
+
+    .post-header {
+        margin: 0;
+    }
+
+    .post-title {
+        margin-top: 2em;
+        padding: .75em 5% 0 5%;
+    }
+}
 
 
 
@@ -316,4 +335,5 @@ PROJECT PAGE SPECIFIC STYLING
     background-size: cover;
     display: none;
     height: 300px;
+    top: 0;
 }
