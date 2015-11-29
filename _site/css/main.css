@@ -709,6 +709,8 @@ MEDIA QUERIES
       clear: both;
       content: "";
       display: table; }
+    .row h1, .row h2 {
+      padding: .57em 0; }
 
   /* PAGE CONTENT */
   .page {
@@ -738,6 +740,9 @@ MEDIA QUERIES
     height: 300px; }
     #self01:last-child, #self02:last-child, #self03:last-child {
       margin-right: 0; } }
+@media screen and (min-width: 765px) {
+  .navigaion .svglogo {
+    margin: 7px 0 0 27px; } }
 @media screen and (min-width: 868px) {
   .splash-title {
     margin-top: 200px; }
