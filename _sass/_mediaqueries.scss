@@ -142,6 +142,19 @@ MEDIA QUERIES
 			}
 		}
 	}
+
+
+	footer {
+		.footer-col-1 {
+			display: inline-block;
+			width: 49%;
+		}
+		
+	    .footer-col-2 {
+	        float: right;
+	        width: 49%;
+	    }
+	}
 }
 
 @media screen and(min-width: 720px) {
@@ -222,16 +235,5 @@ MEDIA QUERIES
 		display: inline-block;
 		padding: .2em 0 0 .08em;
 		vertical-align: top;
-	}
-
-	footer {
-		.footer-col-1 {
-			display: inline-block;
-		}
-		
-	    .footer-col-2 {
-	        display: inline-block;
-	        float: right;
-	    }
 	}
 }
