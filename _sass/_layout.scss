@@ -64,16 +64,13 @@ section {
         padding-bottom: 1em;
         vertical-align: middle;
         
+
         li {
             display: inline-block;
-            padding: 0 1%;
+            margin-right: .5em;
 
-            .iconTemp {
-                background: tomato;
-                height: 2em;
-                width: 2em;
-                border-radius: 50%;
-
+            &:last-child {
+                margin-right: 0;
             }
         }
     }
@@ -141,28 +138,33 @@ footer {
     @include clearfix;
     background: black;
     margin-top: 3em;
-    min-height: 10em;
+    min-height: 4em;
+    padding-top: 2em;
     width: 100%;
     
     p {
         color: white;
         font-size: 1em;
+        margin-top: 1em;
         text-align: center;
     }
 
-    .icon {
-        display: block;
-        height: 2.5em;
-        width: 2.5em;
-    }
+    // .icon {
+    //     display: block;
+    //     height: 2.5em;
+    //     width: 2.5em;
+    // }
 
     .social-media-list {
-        font-size: .75em;
-        padding: 5% 0 5% 5%;
+        text-align: center;
 
         li {
             display: inline-block;
-            margin-right: 1em;
+            margin-right: .5em;
+
+            &:last-child {
+                margin-right: 0;
+            }
         }
     }
 }

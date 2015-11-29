@@ -186,7 +186,7 @@ path {
     @media screen and (min-width: 47.77778em) {
       .navigation li.nav-link a {
         float: right;
-        padding-right: 1em; } }
+        padding-left: 1em; } }
 
 /* ==============================
 
@@ -223,12 +223,9 @@ section h1, section h2, section h3, section h4, section p, section ul {
     vertical-align: middle; }
     .social-block ul li {
       display: inline-block;
-      padding: 0 1%; }
-      .social-block ul li .iconTemp {
-        background: tomato;
-        height: 2em;
-        width: 2em;
-        border-radius: 50%; }
+      margin-right: .5em; }
+      .social-block ul li:last-child {
+        margin-right: 0; }
 
 .about-index {
   margin-top: 3em; }
@@ -279,7 +276,8 @@ section h1, section h2, section h3, section h4, section p, section ul {
 footer {
   background: black;
   margin-top: 3em;
-  min-height: 10em;
+  min-height: 4em;
+  padding-top: 2em;
   width: 100%; }
   footer::after {
     clear: both;
@@ -288,17 +286,15 @@ footer {
   footer p {
     color: white;
     font-size: 1em;
+    margin-top: 1em;
     text-align: center; }
-  footer .icon {
-    display: block;
-    height: 2.5em;
-    width: 2.5em; }
   footer .social-media-list {
-    font-size: .75em;
-    padding: 5% 0 5% 5%; }
+    text-align: center; }
     footer .social-media-list li {
       display: inline-block;
-      margin-right: 1em; }
+      margin-right: .5em; }
+      footer .social-media-list li:last-child {
+        margin-right: 0; }
 
 /* ==============================
 
@@ -688,10 +684,20 @@ MEDIA QUERIES
     margin-right: 4%;
     width: 30.33%; }
     .imgCol3 img:nth-child(3) {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  footer .footer-col-1 {
+    display: inline-block;
+    width: 49%; }
+  footer .footer-col-2 {
+    float: right;
+    width: 49%; } }
 @media screen and (min-width: 720px) {
   .splash-title {
     margin-top: 24%; }
+
+  .social-block {
+    border: none; }
 
   .project-card {
     float: left;
@@ -709,6 +715,8 @@ MEDIA QUERIES
       clear: both;
       content: "";
       display: table; }
+    .row h1, .row h2 {
+      padding: .57em 0; }
 
   /* PAGE CONTENT */
   .page {
@@ -738,6 +746,9 @@ MEDIA QUERIES
     height: 300px; }
     #self01:last-child, #self02:last-child, #self03:last-child {
       margin-right: 0; } }
+@media screen and (min-width: 765px) {
+  .navigaion .svglogo {
+    margin: 7px 0 0 27px; } }
 @media screen and (min-width: 868px) {
   .splash-title {
     margin-top: 200px; }
@@ -745,10 +756,4 @@ MEDIA QUERIES
   .nav-title {
     display: inline-block;
     padding: .2em 0 0 .08em;
-    vertical-align: top; }
-
-  footer .footer-col-1 {
-    display: inline-block; }
-  footer .footer-col-2 {
-    display: inline-block;
-    float: right; } }
+    vertical-align: top; } }

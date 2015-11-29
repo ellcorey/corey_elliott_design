@@ -142,12 +142,29 @@ MEDIA QUERIES
 			}
 		}
 	}
+
+
+	footer {
+		.footer-col-1 {
+			display: inline-block;
+			width: 49%;
+		}
+		
+	    .footer-col-2 {
+	        float: right;
+	        width: 49%;
+	    }
+	}
 }
 
 @media screen and(min-width: 720px) {
 
 	.splash-title {
 		margin-top: 24%;
+	}
+
+	.social-block {
+		border: none;
 	}
 	
 	.project-card {
@@ -160,6 +177,10 @@ MEDIA QUERIES
 		@include clearfix;
 		margin-bottom: 2em;
 		padding: 0 5%;
+
+		h1, h2 {
+			padding: .57em 0;
+		}
 	}
 
 
@@ -200,6 +221,14 @@ MEDIA QUERIES
 	}
 }
 
+@media screen and(min-width: 765px) {
+	.navigaion {
+		.svglogo {
+			margin: 7px 0 0 27px;
+		}
+	}
+}
+
 @media screen and(min-width: 868px) {
 
 	.splash-title {
@@ -210,16 +239,5 @@ MEDIA QUERIES
 		display: inline-block;
 		padding: .2em 0 0 .08em;
 		vertical-align: top;
-	}
-
-	footer {
-		.footer-col-1 {
-			display: inline-block;
-		}
-		
-	    .footer-col-2 {
-	        display: inline-block;
-	        float: right;
-	    }
 	}
 }
