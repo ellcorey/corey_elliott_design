@@ -186,7 +186,7 @@ path {
     @media screen and (min-width: 47.77778em) {
       .navigation li.nav-link a {
         float: right;
-        padding-right: 1em; } }
+        padding-left: 1em; } }
 
 /* ==============================
 
@@ -277,6 +277,7 @@ footer {
   background: black;
   margin-top: 3em;
   min-height: 4em;
+  padding-top: 2em;
   width: 100%; }
   footer::after {
     clear: both;
@@ -285,6 +286,7 @@ footer {
   footer p {
     color: white;
     font-size: 1em;
+    margin-top: 1em;
     text-align: center; }
   footer .social-media-list {
     text-align: center; }
@@ -693,6 +695,9 @@ MEDIA QUERIES
 @media screen and (min-width: 720px) {
   .splash-title {
     margin-top: 24%; }
+
+  .social-block {
+    border: none; }
 
   .project-card {
     float: left;

@@ -162,6 +162,10 @@ MEDIA QUERIES
 	.splash-title {
 		margin-top: 24%;
 	}
+
+	.social-block {
+		border: none;
+	}
 	
 	.project-card {
 		@include grid(4);

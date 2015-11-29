@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Portfolio & personal site for Corey Elliott - Austin based UI and visual designer.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cedsgn.com/" # the base hostname & protocol for your site
-dribbble_username: ellcorey
+dribbble_username: cedsgn
 instagram_username: ellcorey
 github_username:  ellcorey
 linkedin_username: coreyaelliott
