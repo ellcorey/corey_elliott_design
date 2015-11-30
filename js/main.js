@@ -38,6 +38,11 @@ console.log('y into the pipe?');
 
 })();
 
+// FOR NAV PAGE INDICATION
+$(function() {
+  $('nav a[href$="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+});
+
 // FOR SPLASH SCREEN
 $( document ).ready(function() {
   if($(".splash").is(":visible"))
