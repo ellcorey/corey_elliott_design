@@ -87,11 +87,22 @@
   }
 
   li.nav-link a {
+    color: #333;
     display: inline-block;
+
 
     @include media ($large-screen) {
       float: right;
       padding-left: 1em;
+      transition: .15s ease;
+
+      &:hover {
+        color: $brand-color;
+      }
     }
+  }
+
+  li.nav-link a.active {
+    color: $brand-color;
   }
 }

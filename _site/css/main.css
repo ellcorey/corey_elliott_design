@@ -194,11 +194,17 @@ blockquote {
         text-decoration: none;
         width: auto; } }
   .navigation li.nav-link a {
+    color: #333;
     display: inline-block; }
     @media screen and (min-width: 47.77778em) {
       .navigation li.nav-link a {
         float: right;
-        padding-left: 1em; } }
+        padding-left: 1em;
+        transition: .15s ease; }
+        .navigation li.nav-link a:hover {
+          color: #00ff99; } }
+  .navigation li.nav-link a.active {
+    color: #00ff99; }
 
 /* ==============================
 
@@ -424,7 +430,10 @@ PROJECT PAGE SPECIFIC STYLING
   display: none;
   color: #333;
   font-family: "aaux-next", Helvetica, Arial, sans-serif;
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  transition: .15s ease; }
+  .nav-title:hover {
+    color: #00ff99; }
 
 .hero {
   background: url("../imgs/site_wide/weltbg.png");
