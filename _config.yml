@@ -1,6 +1,6 @@
 # Site settings
 title: corey elliott design
-email: corey.elliott@mac.com
+email: corey@cedsgn.com
 description: > # this means to ignore newlines until "baseurl:"
   Portfolio & personal site for Corey Elliott - Austin based UI and visual designer.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -10,12 +10,6 @@ instagram_username: cedsgn
 github_username:  ellcorey
 linkedin_username: coreyaelliott
 twitter_username: cedsgn
-main_email: corey@cedsgn.com
-
-collections:
- projects:
-  output: true
-  permalink: /work/:path/.html
 
 # Build settings
 markdown: kramdown
