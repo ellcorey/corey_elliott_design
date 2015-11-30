@@ -6,8 +6,8 @@
 </description>
     <link>http://cedsgn.com//</link>
     <atom:link href="http://cedsgn.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Nov 2015 22:56:12 -0600</pubDate>
-    <lastBuildDate>Sun, 29 Nov 2015 22:56:12 -0600</lastBuildDate>
+    <pubDate>Sun, 29 Nov 2015 23:03:15 -0600</pubDate>
+    <lastBuildDate>Sun, 29 Nov 2015 23:03:15 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -100,11 +100,11 @@
     
       <item>
         <title>The Iron Yard UI Design</title>
-        <description>&lt;h2 id=&quot;week-2&quot;&gt;week 2&lt;/h2&gt;
+        <description>&lt;h3 id=&quot;week-2&quot;&gt;week 2&lt;/h3&gt;
 
 &lt;p&gt;Week 2 is behind me. In its wake are pieces of knowledge related to CSS preprocessors, placed hastily in the file cabinets of my brain. Our end-of-week project included engineering a grid via a SASS mixin and recreating a site, &lt;a href=&quot;http://www.getpocket.com&quot;&gt;pocket&lt;/a&gt; with 3 or more break points. Even though I was cramming SCSS down, I feel I’ve got a solid grasp of how it functions and using it’s features. This was not a straightforward or easy task, and the uneasiness of being outside of my comfort zone continues.&lt;/p&gt;
 
-&lt;h2 id=&quot;week-3&quot;&gt;Week 3&lt;/h2&gt;
+&lt;h3 id=&quot;week-3&quot;&gt;Week 3&lt;/h3&gt;
 
 &lt;p&gt;I am in week 3 now. I’ve begun what is my third and largest project of the UI course – a redesign of a local restaurant’s website. Our task is redesingning a local restaurant’s website. My subject is local French restaurant &lt;a href=&quot;http://www.cheznousaustin.com&quot;&gt;Chez Nous&lt;/a&gt; – a lovely little spot in downtown Austin. Their food is excellent, and the atmosphere is authentic European dining. Their site is not terrible, (certainly not when compared to many others) but it does not communicate the experience. Additionally, the UI sports bland navigation, poorl page layouts and flows, and unresponsive design.&lt;/p&gt;
 
