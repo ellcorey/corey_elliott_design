@@ -6,38 +6,37 @@
 </description>
     <link>http://cedsgn.com//</link>
     <atom:link href="http://cedsgn.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Nov 2015 21:31:24 -0600</pubDate>
-    <lastBuildDate>Sun, 29 Nov 2015 21:31:24 -0600</lastBuildDate>
+    <pubDate>Sun, 29 Nov 2015 22:53:34 -0600</pubDate>
+    <lastBuildDate>Sun, 29 Nov 2015 22:53:34 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Designing for Mobile</title>
-        <description>&lt;p&gt;Designing for mobile is an ever changing and intriguing task. We’re constantly reevaluating how people use a product and adapting to an endless supply of new device technology. Some designers find themselves questioning not just what mobile means tomorrow, but even what it means today.&lt;/p&gt;
+        <description>&lt;p&gt;Designing for mobile is an ever changing and intriguing task. Always reevaluating how people use a product, adapting to an endless stream of new device technology. Some designers find themselves questioning not just what mobile will mean tomorrow, but what it means today.&lt;/p&gt;
 
-&lt;p&gt;Let’s take a look at the environment a mobile device is likely to be used, and for this post’s sake, let’s say mobile devices consist solely of phones and tablets (I won’t even touch on the $MM market that is wearables). Mobile devices could be and practically are used everywhere, in almost any environment. Often, they’re used with little to moderate attention as someone tries to achieve the task at hand quickly. Luke Wroblewski says in his book, &lt;a href=&quot;http://www.lukew.com/resources/mobile_first.asp&quot;&gt;Mobile First&lt;/a&gt;, refers to this on the go, low attention use case as&lt;/p&gt;
+&lt;p&gt;Let’s take a look at the environment a mobile device is likely used. For this post’s sake, let’s put wearables aside and discuss phones and tablets only. Mobile devices could be, and likely are, used in almost any environment. Often, with little to moderate attention as someone tries to achieve the task at hand quick. Luke Wroblewski in his book, &lt;a href=&quot;http://www.lukew.com/resources/mobile_first.asp&quot;&gt;Mobile First&lt;/a&gt;, refers to this on the go, low attention use case as&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“one eyball and one thumb.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I find this to be an accurate description and feel strongly that if you think this way, your product will maintain its focus.&lt;/p&gt;
+&lt;p&gt;I this this is an accurate description, and feel that if you think this way, your product will maintain its focus.&lt;/p&gt;
 
-&lt;p&gt;Quickly covering the external environment shows how important it is to maintain laser focus within your mobile product so a user can achieve the desired task. Now the device itself can be added to the equation. Devices have a multitude of display sizes, display resolutions, hardware abilities, physical button layouts, and various ways to connect to the internet. If you’re designing for mobile web, it is imperative to consider many if not all of these variables. Building a native app may allow you to narrow down some of these, dependent on the OS, but that’s another discussion entirely.&lt;/p&gt;
+&lt;p&gt;Covering the external environment shows how important it is to maintain focus within your mobile product so a user can achieve the desired task. Now the device itself can be added to the equation. Devices have a multitude of display sizes, display resolutions, hardware abilities, physical button layouts, and various ways to connect to the internet. If you’re designing for mobile web, it is imperative to consider many, if not all, of these variables. Building a native app may allow you to narrow down some of these, dependent on the OS, but that’s another discussion.&lt;/p&gt;
 
-&lt;p&gt;Now we’re looking at a device with a diagonal screen size upwards of 13”, probably has a resolution between 72 and 300 dpi, may or may not have built in GPS/accelerometers/microphone/camera, is probably touch screen (but might have full physical keyboard), has a random number of physical buttons that do various things, and may or may not connect to cellular data networks. This is hopefully where your client or in house team has some user data and discovery to help you narrow this down, because that is a lot to take into consideration. It’s also a giant reason to fly the responsive web design flag if your product is for mobile web. But, what about software and different mobile web browsers? Yeah, different browsers handle your site differently and that’s a lot of times device dependent. I’m willing to bet the majority of mobile web traffic is on the built in browser.&lt;/p&gt;
+&lt;p&gt;We’ve narrowed down to a device with a diagonal screen size upwards of 13”, probably has a resolution between 72 and 300 dpi, may or may not have built in GPS/accelerometers/microphone/camera, is probably touch screen (but might have full physical keyboard), has a random number of physical buttons that do various things, and may or may not connect to cellular data networks. This is [hopefully] where your client or in house team has user data and research to narrow this down, because that is a lot to consider. It’s also a giant reason to fly the responsive web design flag if your product is for mobile web. But, what about software and different mobile web browsers? Yeah, different browsers handle your site differently and often device dependent. I’m willing to bet the majority of mobile web traffic is on the built in browser.&lt;/p&gt;
 
-&lt;p&gt;Once you’ve got an idea of where you’re headed, you can begin to work on the product. Again, mobile web probably has to take more into consideration here. With proper media queries in your CSS, you can effectively get your site to function on target devices with incredible accuracy. Yeah, it may require a release and then further releases as you begin to acquire more device data from analytics, but it’s not exceptionally difficult to establish something that functions well on a large variety of devices.&lt;/p&gt;
+&lt;p&gt;Once you’ve got an idea of where you’re headed, you can begin to work on the product. Again, mobile web arguably requires more consideration. With proper media queries in your CSS, your site or web app can function on target devices with incredible accuracy. Yeah, it may need updates (then further updates) as you begin to gather more device data from analytics. Thankfully, it’s not that difficult to establish a viable product that functions well on a variety of devices.&lt;/p&gt;
 
-&lt;p&gt;With layout and text, I’ve learned that it’s important to remember our friend with one eyeball and one thumb. If your content is crammed together and/or text is too small, how’s your content going to be read it while walking to his destination or just generally being distracted? A lot of designers have tried to make up for smaller screens by making everything smaller and cramming it into the viewport. That’s an incorrect approach and you should do the opposite. I personally would rather scroll than strain. Additionally, this moment gives you the chance to really consider what is essential to your core feature[s] and eliminate the superfluous that may creep in.&lt;/p&gt;
+&lt;p&gt;With layout and text, I’ve learned that it’s important to remember our distracted user. If you have content clutter and/or text that’s too small, how’s your content is difficult to use in a distracted environment. Some designers try to make up for smaller screens by  making shrinking content and cramming it into the viewport. That’s an incorrect approach and doing the opposite is better. I would rather scroll than strain. But really, this moment gives you the chance to focus on what is essential to your core feature[s] and drop the superfluous that may creep in. It also shows the importance of good content management.&lt;/p&gt;
 
-&lt;p&gt;With most devices these days being touch screen, layout is more important than ever. Touch targets that are small or close don’t offer much room for error and the thumb is not necessarily an instrument of accuracy. Try holding a baseball card (or similar item) with hand and tracing the players face with that same hand’s thumb. You could draw a smiley face if you’re dexterous. Now do it while walking. That’s the environment and the level of error you need to account for in your mobile design. The placement of these touch targets is just as important in that you don’t want to place destructive, and possibly frustrating buttons in accidentally accessible locations. A delete data or close window button that’s near the thumb’s resting spot could potentially cause your user base to shrink and head over to your competitor.&lt;/p&gt;
+&lt;p&gt;With most devices these days being touch screen, layout is more important than ever. Touch targets that are small or close don’t offer much room for error and the thumb is not an instrument of accuracy. Try holding a baseball card (or similar item) with hand and tracing the players face with that same hand’s thumb. You could draw a smiley face if you’re dexterous. Now do it while walking. That’s the environment and the level of error you need to account for in your mobile design. The placement of touch targets is just as important. You don’t want to place destructive, and possibly frustrating buttons in high-error locations. Deleting data or closing a window due to an errant tap could cause your user base to shrink.&lt;/p&gt;
 
-&lt;p&gt;That covers the one thumb, but what about the one eyeball? Font sizing is obviously important, but so is the type face. Some fonts won’t scale down cleanly and become blurred, or they generally become difficult to read on smaller screens. It’s very important to take this into consideration because your product may become unusable at certain screen sizes and resolutions. That text should also be full on contrast. Half the time a user won’t know how to adjust the brightness on their device and what is legible in the dark could become illegible with the smallest amount of light.&lt;/p&gt;
+&lt;p&gt;That covers the one thumb, but what about the one eyeball? Type sizing is obviously important, but so is the type face. Some fonts won’t scale down well and become blurred, or they generally become difficult to read on smaller screens. It’s important to test on various displays so your product doesn’t become unusable at certain screen sizes and resolutions. The text should also have strong contrast. Users may not know how to adjust the brightness on their device. What is legible in the dark could become illegible with the smallest amount of light. Also, a decent percentatge of the population is colorblind on some level.&lt;/p&gt;
 
-&lt;p&gt;All of these things and much more must be considered with mobile product design. It really is just the tip of an ever growing iceberg, but rest assured that with proper leg work and data, it is achievable. Why not simply target the bullseye and leave a lot of users without? The market you leave unattended is the same market where a competitor can grow, and mobile products can become outdated just as quickly as the mobile devices they’re used on.&lt;/p&gt;
+&lt;p&gt;All these things and more must be considered with mobile product design. It is just the tip of an ever growing iceberg, but rest assured that with proper leg work and data, it is achievable. Why not simply target the bullseye and leave a lot of users without? The market you leave unattended is the same market where a competitor can grow. Mobile products can become outdated just as quickly as the mobile devices they’re used on.&lt;/p&gt;
 
-&lt;p&gt;A lot of this post may sound awfully familiar to anyone who’s read Luke Wroblewski’s “Mobile First” book in the A Book Apart series, and that’s solely out of my absolute respect for Mr. Wroblewski. If you haven’t read it, buy it and do so as it is worth every penny of it’s absurdly reasonable price.&lt;/p&gt;
-
+&lt;p&gt;A lot of this post may sound awfully familiar to anyone who’s read Luke Wroblewski’s “Mobile First” book. That’s solely out of my absolute respect for Mr. Wroblewski. If you haven’t yet, buy it and read it — it is worth every penny of it’s absurdly reasonable price.&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Oct 2015 00:00:00 -0500</pubDate>
         <link>http://cedsgn.com//designing-for-mobile</link>
@@ -58,11 +57,13 @@
     
       <item>
         <title>TIY UI Design - week 06</title>
-        <description>&lt;p&gt;It’s amazing to look back over all we’ve learned and were able to accomplish by the end of week 05. Trial by fire some may call it, the Iron Yard’s Hackathon holds a spot in the student’s hearts. The standard week-in week-out of an immersive coding and design school is already compressed and forces you through a range of emotions while constantly out of your comfort zone. The Hackothon compresses that further.&lt;/p&gt;
+        <description>&lt;h3 id=&quot;week-6&quot;&gt;Week 6&lt;/h3&gt;
+&lt;p&gt;It’s amazing to look back over all we’ve learned and were able to accomplish by the end of week 05. Trial by fire some may call it, the Iron Yard’s Hackathon holds a spot in the student’s hearts. The standard week-in week-out of an immersive coding and design school is already compressed and forces you through a range of emotions while constantly out of your comfort zone. The Hackothon compresses that further.&lt;/p&gt;
 
 &lt;p&gt;3.5 days — from noon Thursday to 1am Monday - you work with your team to spring an idea, plan the process, and build a functioning app working with a database. And you do this with 5 or so weeks of experience! My team was awesome, working long and hard, and with great companionship — I couldn’t have asked for more. After the dust settled, my initial reaction is, “Wow, that was a hell of a lot of work, but equally as rewarding.” It could possibly be one of the highlights of my Iron Yard experience. Needless to say, a little bit of a break was in order.&lt;/p&gt;
 
 &lt;h3 id=&quot;jekyll--markdown&quot;&gt;Jekyll &amp;amp; Markdown&lt;/h3&gt;
+
 &lt;p&gt;If you weren’t aware, this site is built off of Jekyll, a “blog-aware” framework designed to help build efficient blogs using the Markdown language.&lt;/p&gt;
 
 &lt;p&gt;Markdown is a nifty language that is easy and quick to type and can be converted to html. These blog posts are written in Markdown and allow me to effortlessly write posts without having to muck about with html tags and elements.&lt;/p&gt;
@@ -73,15 +74,16 @@
 &lt;p&gt;I highly recommend reading that post as Daring Fireball’s author, John Gruber, is one of the creators. It will give you a thorough overview of the syntax and features.&lt;/p&gt;
 
 &lt;h3 id=&quot;paper--prototyping&quot;&gt;Paper &amp;amp; prototyping&lt;/h3&gt;
+
 &lt;p&gt;We’ve begun to study rapid prototyping techniques and how to effectively use them to help product design. A quick exercise involving teams of two was set up to paper prototype a user action on an airline website. The process myself and parter selected was choosing a flight with US Airways. While we found a small number of ways we believe the site could be improved, we learned a lesson that prototyping should make extensive use of data and a hypothesis which may require more time than we were allowed.&lt;/p&gt;
 
 &lt;p&gt;Through a couple of quick tests, we were able to find that our hypothesis of removing additional choices in the flight filter options, and moving the price to a more prominent location, resonated with our test demographic (my classmates).&lt;/p&gt;
 
 &lt;p&gt;I think the power of paper prototyping is real, but I am more excited to get into prototyping tools like InVision. Continuing with my goal of working on a native product, I want to become familiar with these tools and the experience of using them in the workplace.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 28 Sep 2015 00:00:00 -0500</pubDate>
-        <link>http://cedsgn.com//tiy,/ui,/design,/projects,/hackothon/2015/09/28/tiy_week06.html</link>
-        <guid isPermaLink="true">http://cedsgn.com//tiy,/ui,/design,/projects,/hackothon/2015/09/28/tiy_week06.html</guid>
+        <pubDate>Wed, 30 Sep 2015 00:00:00 -0500</pubDate>
+        <link>http://cedsgn.com//tiy,/ui,/design,/projects,/hackothon/2015/09/30/tiy_week06.html</link>
+        <guid isPermaLink="true">http://cedsgn.com//tiy,/ui,/design,/projects,/hackothon/2015/09/30/tiy_week06.html</guid>
         
         
         <category>tiy,</category>
@@ -98,19 +100,21 @@
     
       <item>
         <title>The Iron Yard UI Design</title>
-        <description>&lt;p&gt;Week 2 is behind me. In its wake are pieces of knowledge related to CSS preprocessors, placed hastily in the file cabinets of my brain. Our end of week project included engineering a grid via mixin and recreating a site, &lt;a href=&quot;http://www.getpocket.com&quot;&gt;pocket&lt;/a&gt; with 3 or more break points. Even though I was cramming SCSS down, I feel I’ve got a solid grasp of how it functions and using it’s features. This was not a straightforward or easy task, and the uneasiness of being outside of my comfort zone continues.&lt;/p&gt;
+        <description>&lt;h2 id=&quot;week-2&quot;&gt;week 2&lt;/h2&gt;
 
-&lt;h3 id=&quot;week-3&quot;&gt;Week 3&lt;/h3&gt;
+&lt;p&gt;Week 2 is behind me. In its wake are pieces of knowledge related to CSS preprocessors, placed hastily in the file cabinets of my brain. Our end-of-week project included engineering a grid via a SASS mixin and recreating a site, &lt;a href=&quot;http://www.getpocket.com&quot;&gt;pocket&lt;/a&gt; with 3 or more break points. Even though I was cramming SCSS down, I feel I’ve got a solid grasp of how it functions and using it’s features. This was not a straightforward or easy task, and the uneasiness of being outside of my comfort zone continues.&lt;/p&gt;
 
-&lt;p&gt;Here we are in week 3 now. I’ve begun what is my third and largest project of the UI course – a redesign of a local restaurant’s website. We were tasked with choosing a site we felt had a true issue that could be solved with current technology, and design solutions. My subject is local French restaurant &lt;a href=&quot;http://www.cheznousaustin.com&quot;&gt;Chez Nous&lt;/a&gt; – a lovely little spot in downtown Austin. Their food is excellent, and the atmosphere is authentic European dining. Their site is not terrible, certainly not when compared to many others, but it does not communicate the experience. Additionally, the UI sports bland navigation, poorly laid out pages, and unresponsive design.&lt;/p&gt;
+&lt;h2 id=&quot;week-3&quot;&gt;Week 3&lt;/h2&gt;
+
+&lt;p&gt;I am in week 3 now. I’ve begun what is my third and largest project of the UI course – a redesign of a local restaurant’s website. Our task is redesingning a local restaurant’s website. My subject is local French restaurant &lt;a href=&quot;http://www.cheznousaustin.com&quot;&gt;Chez Nous&lt;/a&gt; – a lovely little spot in downtown Austin. Their food is excellent, and the atmosphere is authentic European dining. Their site is not terrible, (certainly not when compared to many others) but it does not communicate the experience. Additionally, the UI sports bland navigation, poorl page layouts and flows, and unresponsive design.&lt;/p&gt;
 
 &lt;p&gt;There are many areas to improve upon and that’s what I’ve set out to do. It has started with design sketches showing a new interface for both small and large screens, and typeface discovery for use on the site and menu. We’ve been spending a decent amount of time on typography this week and this exercise is set to strengthen our use of typography in UI.&lt;/p&gt;
 
-&lt;p&gt;Choosing a typeface or font for your project is of the upmost importance, espescially in today’s world of contemporary design. There is huge emphasis on type and how it can effect the user’s experience. Choose the correct typeface and you can communicate the weight of your content effortlessly, choose poorly and the content may be unreadable. You wouldn’t wear pajamas out to eat just as you wouldn’t use Courier on your resume. I understand typography, but I want to master it and doing so requires experience. I’m looking forward to this poject strengthening that experience and hopefully getting some critical feedback in the process.&lt;/p&gt;
+&lt;p&gt;Choosing a typeface or font for your project is of the upmost importance. There is huge emphasis on type and how it can effect the user’s experience. Choose the correct typeface and you can communicate the weight of your content effortlessly, choose poorly and the content may be unreadable. I understand typography, but I want to master it and doing so requires experience. I’m looking forward to strengthening that experience and receiving critical feedback in the process.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 28 Sep 2015 00:00:00 -0500</pubDate>
-        <link>http://cedsgn.com//tiy,/ui,/design/2015/09/28/tiy_week02.html</link>
-        <guid isPermaLink="true">http://cedsgn.com//tiy,/ui,/design/2015/09/28/tiy_week02.html</guid>
+        <pubDate>Thu, 10 Sep 2015 00:00:00 -0500</pubDate>
+        <link>http://cedsgn.com//tiy,/ui,/design/2015/09/10/tiy_week02.html</link>
+        <guid isPermaLink="true">http://cedsgn.com//tiy,/ui,/design/2015/09/10/tiy_week02.html</guid>
         
         
         <category>tiy,</category>
@@ -123,29 +127,29 @@
     
       <item>
         <title>The Iron Yard UI Design</title>
-        <description>&lt;p&gt;I am not a writer. Sometimes I like to think I am, but that’s hardly the case. These entries will serve as something of a record. Aside from my experiences at the Iron Yard, I expect there will be additional content related to design and other aspects of my life (I’m also not a philospher). I’m more than just a designer after all. Now that’s out of the way, let’s continue.&lt;/p&gt;
+        <description>&lt;p&gt;I am not a writer. Sometimes I like to think I am, but that’s hardly the case. These entries will serve as something of a record. Aside from my experiences at the Iron Yard, I’ll add content related to design and other aspects of my life (I’m also not a phillospher). I’m more than just a designer after all. Now that’s out of the way, let’s continue.&lt;/p&gt;
 
-&lt;p&gt;August.24 2015 was a big step on my path in the design field. I’ve done work in design previously and held positions in it, but I’ve yearned for something more than what I had been doing. On that day, I started The Iron Yard’s User Interface Design immersive. A non-standard further education facility, I made sure to do my research. The Iron Yard was well recognized for it’s graduates and I had difficulty finding negative experiences - from students and hiring managers alike.&lt;/p&gt;
+&lt;p&gt;August.24 2015 was a big step on my path in the design field. I’ve worked in design before,  but I’ve yearned for something more than the graphic design I’d been doing. On that day, I started The Iron Yard’s User Interface Design immersive. I made sure to do my research on this non-standard school. The Iron Yard is well recognized for it’s graduates, and I had difficulty finding negative experiences - from students and hiring managers alike.&lt;/p&gt;
 
 &lt;h2 id=&quot;week-1&quot;&gt;week 1&lt;/h2&gt;
 
-&lt;p&gt;Week one kicked off immediately with web development. I started with minor experience in web design through front end editors with WYSIWYG interfaces. Maybe I would add in a few lines of custom CSS after doing research and psyching myself up to realize a mistake could wreak havoc. Additionally I had spent quite a few hours with Team Treehouse’ online learning courses.&lt;/p&gt;
+&lt;p&gt;Week one kicked off immediately with web development. Prior to The Iron Yard, I had minimal experience in web design. I had only used editors with WYSIWYG interfaces. Maybe I would add in a few lines of custom CSS after doing research and psyching myself up to realize a mistake could wreak havoc. Also, I had spent quite a few hours with Team Treehouse’ online learning courses.&lt;/p&gt;
 
-&lt;p&gt;What I expected to be was not. Hiking Pikes Peak quickly turned into an 8 man assault to summit Everest. The shear amount that I learned about hand-coding a website was phenominal. Every day it was new tags &amp;amp; atributes and properties &amp;amp; values. I felt I had a grip on it, and my code didn’t seem too bad. My site was coming along, but it wasn’t there yet. I understood it needed to be responsive, and was ready for the next step. Media Queries.&lt;/p&gt;
+&lt;p&gt;I figured it would be a challenge, but it was harder than that. Hiking Pikes Peak quickly turned into an attempt to summit Everest. The shear amount that I learned about hand-coding a website was phenomenal. Every day it was new tags &amp;amp; attributes and properties &amp;amp; values. I felt I had a grip on it, and my code didn’t seem too bad. My first project was coming along, but it wasn’t there yet. I understood it needed to be responsive, and was ready for the next step. Media Queries.&lt;/p&gt;
 
-&lt;p&gt;Media queries, it turns out, are lovely little bits to help your site adapt to multiple screen sizes. They help to shape the site to best suit the viewport. I spent my first weekend coding multiple break points and learning how to adapt a site to different screen sizes. It really is an eye opening experience and built into our course was a lesson of why “Mobile First” is more than just a talking point.&lt;/p&gt;
+&lt;p&gt;Media queries, it turns out, are lovely bits of CSS to help your site adapt to various screen sizes. They help to shape the site to best suit the viewport. I spent my first weekend coding several break points and learning how to adapt a site to different screen sizes. It is an eye opening experience and built into our course was a lesson of why “Mobile First” is more than just a talking point.&lt;/p&gt;
 
-&lt;p&gt;Towards the end of the first week, I took part in a SASS meetup where I was introduced to SASS, or more specifically SCSS. Our instructor, Abby, gave a rundown of setting up SASS and was followed by Una Kravets showing the capability of SASS. I left with a firm understanding that this tool would revolutionize the way I’ll code CSS in the future.&lt;/p&gt;
-
-&lt;p&gt;We’re in the middle of week 2, and I’m working through SASS and grid systems. It’s a lot to onload so once my brain has cooled down I’ll get post two up.&lt;/p&gt;
+&lt;p&gt;Towards the end of the first week, I went to a  meetup where I was introduced to SASS, or more specifically SCSS. Our instructor, Abby, gave a rundown of setting up SASS and was followed by Una Kravets showing the capability of SASS. I left with a firm understanding that this tool would revolutionize the way I’ll code CSS in the future.&lt;/p&gt;
 
 &lt;h2 id=&quot;looking-forward&quot;&gt;looking forward&lt;/h2&gt;
 
-&lt;p&gt;In closing, there’s an uneasy feeling knowing that I’m just scratching the surface of web development. Understanding the concepts, technologies, and the people that work in those environments will be paramount to my success as a UI designer. We are just getting started, but one thing is clear - my education does not end in November. My appetite has returned and I plan to stay foolish and stay hungry.&lt;/p&gt;
+&lt;p&gt;We’re in the middle of week 2, and I’m working through SASS and grid systems. It’s a lot to onload so once my brain has cooled down I’ll get post two up.&lt;/p&gt;
+
+&lt;p&gt;There’s an uneasy feeling knowing that I’m just scratching the surface of web development. Understanding the concepts, technologies, and the people that work in those environments will be paramount to my success as a UI designer. We are just getting started, but one thing is clear — my education does not end in November. My appetite has returned and I plan to stay foolish and stay hungry.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 28 Sep 2015 00:00:00 -0500</pubDate>
-        <link>http://cedsgn.com//tiy,/ui,/design/2015/09/28/tiy_week01.html</link>
-        <guid isPermaLink="true">http://cedsgn.com//tiy,/ui,/design/2015/09/28/tiy_week01.html</guid>
+        <pubDate>Fri, 04 Sep 2015 00:00:00 -0500</pubDate>
+        <link>http://cedsgn.com//tiy,/ui,/design/2015/09/04/tiy_week01.html</link>
+        <guid isPermaLink="true">http://cedsgn.com//tiy,/ui,/design/2015/09/04/tiy_week01.html</guid>
         
         
         <category>tiy,</category>
@@ -153,94 +157,6 @@
         <category>ui,</category>
         
         <category>design</category>
-        
-      </item>
-    
-      <item>
-        <title>Hackothon - 2015.08 Cohort</title>
-        <description>&lt;p&gt;Every cohort at the Iron Yard goes through a group project known as a Hackothon — a “grueling” weekend+ long build project where the individual cohorts (UI design, front-end, back-end) are split up into teams.&lt;/p&gt;
-
-&lt;p&gt;Each team usually consists of a combination of students from front-end development, back-end development, and UI design courses. While each cohort varies in the way the teams are organized, the goal is the same: to create a functioning web app in less than 4 days. My cohort ran our Hackothon at the end of week 05.&lt;/p&gt;
-
-&lt;h3 id=&quot;deliverables&quot;&gt;Deliverables&lt;/h3&gt;
-
-&lt;h4 id=&quot;group&quot;&gt;Group&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;every member must be a contributor on the project repository with at least 5 commits&lt;/li&gt;
-  &lt;li&gt;use branching and pulling to effectively work on project’s master repository&lt;/li&gt;
-  &lt;li&gt;multi-device friendly (responsive)&lt;/li&gt;
-  &lt;li&gt;a polished representation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;ui-specific&quot;&gt;UI specific&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;find 3 websites to inspire the design/layout/functionality of the app&lt;/li&gt;
-  &lt;li&gt;sketches for each page&lt;/li&gt;
-  &lt;li&gt;mockups for 1 page at two breakpoints&lt;/li&gt;
-  &lt;li&gt;3 style tiles&lt;/li&gt;
-  &lt;li&gt;build the HTML/Sass&lt;/li&gt;
-  &lt;li&gt;make design decisions that can be defended&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;our-app&quot;&gt;Our app&lt;/h3&gt;
-&lt;p&gt;SkillsUp is the working title for the web app my team built. The concept is a site dedicated to connecting creatives for collaboration. Initially we set out to offer the service to musicians, film makers, and designers, but scaled back to just musicians to avoid mission creep and an overload of work.&lt;/p&gt;
-
-&lt;p&gt;The completed project shows how effective 4 students (with only 5 weeks experience in web/database technologies) can be in an accelerated environment. Our app incorporates a multitude of current web &amp;amp; database technologies including html, css, scss, &lt;a href=&quot;http://gulpjs.com/&quot;&gt;Gulp&lt;/a&gt;, &lt;a href=&quot;http://backbonejs.org/&quot;&gt;Backbone&lt;/a&gt;, javascript, jquery, ruby, rails, and &lt;a href=&quot;https://www.heroku.com/&quot;&gt;Heroku&lt;/a&gt;. Additionally, we used &lt;a href=&quot;https://github.com/&quot;&gt;GitHuh&lt;/a&gt; and terminal for our collaboration &amp;amp; version control, and &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitPages&lt;/a&gt; for hosting. You can see our repository &lt;a href=&quot;https://github.com/bobmccarthy/stop-drop-and-collaborate&quot;&gt;here&lt;/a&gt;, and our page &lt;a href=&quot;http://bobmccarthy.github.io/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;design-overview&quot;&gt;Design overview&lt;/h3&gt;
-
-&lt;p&gt;&lt;img id=&quot;test&quot; src=&quot;/images/skillsup_home_fs.png&quot; /&gt;&lt;img src=&quot;/images/skillsup_login_fs.png&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;site-inspirations&quot;&gt;Site inspirations&lt;/h3&gt;
-&lt;p&gt;Site inspirations are something we’ve used for almost every project thus far. For this project, I chose two sites whose core functionality is based around sharing things, and another that offered a very clean layout for a service offered.&lt;/p&gt;
-
-&lt;h4 id=&quot;air-bnbhttpswwwairbnbcom&quot;&gt;&lt;a href=&quot;https://www.airbnb.com/&quot;&gt;Air BnB&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Air BnB offers a great site with a clean layout and heavy use of images. The overlayed text doesnt’ always lend itself to acceptable contrast and could be imrpoved upon. The app communicates the results, related map, and pertinent information effectively without feeling too claustrophobic.&lt;/p&gt;
-
-&lt;h4 id=&quot;buddytrukhttpswwwbuddytrukcom&quot;&gt;&lt;a href=&quot;https://www.buddytruk.com/&quot;&gt;Buddytruk&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Buddytruk is a vehicle/driver service. The full length nature of their site gives a brief overview of the service along with user stories, and the process of using the app. The colors are bright and friendly, and there is effective use of white space to break up the sections.&lt;/p&gt;
-
-&lt;h4 id=&quot;leaphttpleaptransitcom&quot;&gt;&lt;a href=&quot;http://leaptransit.com/&quot;&gt;Leap&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Leap offers alternative bus options in the city of San Francisco. Leap’s site has a vibe of community and comfort which, to me, makes me want to try out their service. Another site with a top to bottom, single page style, it also has a two column layout that I really enjoyed. It leads your eye down the page with large, bright images and doesn’t break up the information housed in the right column.&lt;/p&gt;
-
-&lt;h3 id=&quot;sketches&quot;&gt;Sketches&lt;/h3&gt;
-
-&lt;h3 id=&quot;style-tiles&quot;&gt;Style tiles&lt;/h3&gt;
-
-&lt;h3 id=&quot;page-mockups&quot;&gt;Page mockups&lt;/h3&gt;
-
-&lt;h3 id=&quot;html--css&quot;&gt;HTML / CSS&lt;/h3&gt;
-
-&lt;h3 id=&quot;future-refinements&quot;&gt;Future refinements&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;completed project&lt;/li&gt;
-  &lt;li&gt;design overview&lt;/li&gt;
-  &lt;li&gt;site inspirations&lt;/li&gt;
-  &lt;li&gt;sketches&lt;/li&gt;
-  &lt;li&gt;style tiles&lt;/li&gt;
-  &lt;li&gt;mockups&lt;/li&gt;
-  &lt;li&gt;html/css structure&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;presentations&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;issues&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 28 Sep 2015 00:00:00 -0500</pubDate>
-        <link>http://cedsgn.com//hackothon/</link>
-        <guid isPermaLink="true">http://cedsgn.com//hackothon/</guid>
-        
-        
-        <category>tiy</category>
-        
-        <category>ui</category>
-        
-        <category>design</category>
-        
-        <category>projects</category>
-        
-        <category>hackothon</category>
         
       </item>
     
