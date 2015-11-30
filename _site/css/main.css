@@ -52,14 +52,20 @@ html {
   box-sizing: inherit; }
 
 /* ===============
+
     BASE STYLES
-   ============ */
+   
+=============== */
 /* ===============
+    
     VARIABLES
-   ============ */
+
+=============== */
 /* ===============
-    TEXT STYLING
-   ============ */
+
+   TEXT STYLING
+
+=============== */
 body {
   color: #333; }
 
@@ -115,8 +121,14 @@ blockquote {
   padding: .75em 5%; }
 
 /* Icons */
-path {
+.svglogo {
   fill: #00ff99; }
+
+#Layer_1 {
+  fill: #333;
+  transition: .15s ease; }
+  #Layer_1:hover {
+    fill: #00ff99; }
 
 /* Textures */
 .navigation {
