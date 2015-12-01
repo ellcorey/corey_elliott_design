@@ -706,6 +706,10 @@ MEDIA QUERIES
     width: 30.33%; }
     .imgCol3 img:nth-child(3) {
       margin-right: 0; }
+  .imgCol3 .quarter {
+    width: 22%; }
+  .imgCol3 .half {
+    width: 48%; }
 
   footer .footer-col-1 {
     display: inline-block;
