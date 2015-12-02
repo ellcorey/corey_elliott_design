@@ -132,7 +132,7 @@ blockquote {
 
 /* Textures */
 .navigation {
-  background: #777;
+  background: #333;
   border-bottom: 1px solid #00ff99;
   position: fixed;
   width: 100%; }
@@ -180,7 +180,7 @@ blockquote {
     .navigation ul.navigation-menu.show {
       display: block; }
   .navigation ul li.nav-link {
-    background: #777;
+    background: #333;
     display: block;
     font-family: "nimbus-sans", Helvetica, Arial, sans-serif;
     font-size: 2em;
@@ -194,7 +194,7 @@ blockquote {
         text-decoration: none;
         width: auto; } }
   .navigation li.nav-link a {
-    color: #333;
+    color: #eee;
     display: inline-block; }
     @media screen and (min-width: 47.77778em) {
       .navigation li.nav-link a {
@@ -292,7 +292,7 @@ section h1, section h2, section h3, section h4, section p, section ul {
   background-size: 86%; }
 
 footer {
-  background: black;
+  background: #000;
   margin-top: 3em;
   min-height: 4em;
   padding-top: 2em;
@@ -428,7 +428,7 @@ PROJECT PAGE SPECIFIC STYLING
 /* HIDDEN ELEMENTS AT LOAD */
 .nav-title {
   display: none;
-  color: #333;
+  color: #eee;
   font-family: "aaux-next", Helvetica, Arial, sans-serif;
   font-size: 2.5em;
   transition: .15s ease; }
