@@ -770,7 +770,18 @@ MEDIA QUERIES
     float: left;
     height: 300px; }
     #self01:last-child, #self02:last-child, #self03:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  /* RESUME CONTENT */
+  .res-exp {
+    float: left;
+    width: 60%; }
+
+  .res-col {
+    border-left: 0.2em solid #00ff99;
+    float: left;
+    padding-left: 2em;
+    width: 25%; } }
 @media screen and (min-width: 765px) {
   .navigaion .svglogo {
     margin: 7px 0 0 27px; } }

@@ -227,6 +227,19 @@ MEDIA QUERIES
 	    float: left;
 	    height: 300px;
 	}
+
+	/* RESUME CONTENT */
+	.res-exp {
+		float: left;
+		width: 60%;
+	}
+
+	.res-col {
+		border-left: .2em solid $brand-color;
+		float: left;
+		padding-left: 2em;
+		width: 25%;
+	}
 }
 
 @media screen and(min-width: 765px) {
