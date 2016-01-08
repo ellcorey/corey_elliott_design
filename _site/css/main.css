@@ -75,6 +75,9 @@ p, li {
   font-weight: 300;
   line-height: 1.5em; }
 
+br {
+  line-height: 2em; }
+
 a {
   color: #00ff99;
   font-weight: 700;
@@ -130,7 +133,6 @@ blockquote {
   #Layer_1:hover {
     fill: #00ff99; }
 
-/* Textures */
 .navigation {
   background: #333;
   border-bottom: 1px solid #00ff99;
@@ -317,7 +319,7 @@ footer {
 /* ==============================
 
 UNIVERSAL PAGE LAYOUT STYLING
-***DOES NOT INCLUDE INDEX*** 
+*** DOES NOT INCLUDE INDEX *** 
 
 ============================== */
 .page {
@@ -441,6 +443,30 @@ PROJECT PAGE SPECIFIC STYLING
   display: none;
   height: 300px;
   top: 0; }
+
+/* ==============================
+
+RESUME PAGE SPECIFIC STYLING 
+
+============================== */
+.res-exp h4 {
+  font-style: italic; }
+.res-exp ul {
+  list-style-type: disc;
+  padding-left: 3em; }
+.res-exp li {
+  margin-bottom: 1em; }
+  .res-exp li:last-of-type {
+    margin-bottom: 0; }
+
+.res-exp h2,
+.res-exp h3,
+.res-exp h4, .res-col h2,
+.res-col h3,
+.res-col h4 {
+  padding-top: 0; }
+.res-exp p:last-of-type, .res-col p:last-of-type {
+  margin-bottom: 4em; }
 
 /* Page Styles */
 * {
@@ -770,7 +796,23 @@ MEDIA QUERIES
     float: left;
     height: 300px; }
     #self01:last-child, #self02:last-child, #self03:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  /* RESUME CONTENT */
+  .res-exp {
+    float: left;
+    margin: 0 2.2%;
+    width: 60%; }
+    .res-exp ul {
+      list-style-type: disc;
+      padding-left: 4.5em; }
+
+  .res-col {
+    border-left: 0.2em solid #00ff99;
+    float: left;
+    margin-right: 5%;
+    padding-left: 2em;
+    width: 25%; } }
 @media screen and (min-width: 765px) {
   .navigaion .svglogo {
     margin: 7px 0 0 27px; } }

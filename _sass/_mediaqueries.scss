@@ -227,6 +227,26 @@ MEDIA QUERIES
 	    float: left;
 	    height: 300px;
 	}
+
+	/* RESUME CONTENT */
+	.res-exp {
+		float: left;
+		margin:0 2.2%;
+		width: 60%;
+		
+		ul {
+	        list-style-type: disc;
+	        padding-left: 4.5em;
+    	}
+	}
+
+	.res-col {
+		border-left: .2em solid $brand-color;
+		float: left;
+		margin-right: 5%;
+		padding-left: 2em;
+		width: 25%;
+	}
 }
 
 @media screen and(min-width: 765px) {

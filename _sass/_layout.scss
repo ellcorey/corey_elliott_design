@@ -149,12 +149,6 @@ footer {
         text-align: center;
     }
 
-    // .icon {
-    //     display: block;
-    //     height: 2.5em;
-    //     width: 2.5em;
-    // }
-
     .social-media-list {
         text-align: center;
 
@@ -174,7 +168,7 @@ footer {
 /* ==============================
 
 UNIVERSAL PAGE LAYOUT STYLING
-***DOES NOT INCLUDE INDEX*** 
+*** DOES NOT INCLUDE INDEX *** 
 
 ============================== */
 
@@ -341,4 +335,44 @@ PROJECT PAGE SPECIFIC STYLING
     display: none;
     height: 300px;
     top: 0;
+}
+
+
+
+
+/* ==============================
+
+RESUME PAGE SPECIFIC STYLING 
+
+============================== */
+
+.res-exp {
+
+    h4 {
+        font-style: italic;
+    }
+    ul {
+        list-style-type: disc;
+        padding-left: 3em;
+    }
+
+    li {
+        margin-bottom: 1em;
+
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+    }
+}
+
+.res-exp, .res-col {
+    h2,
+    h3,
+    h4 {
+        padding-top: 0;
+    }
+
+    p:last-of-type {
+        margin-bottom: 4em;
+    }
 }
